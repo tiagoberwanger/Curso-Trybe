@@ -58,14 +58,18 @@ if (x + y + z === 180){
 
 //Exercício 6
 
-//let variável = valor;
-//switch (expressão) {
+// Explicando o SWITCH: definida uma variável let = valor;
+// 
+//  Switch (expressão) {
 //    case x:
 //      bloco de código 1;
 //      break;
 //    case y:
 //      bloco de código 2;
 //      break;
+//    default:
+//      bloco de código final;
+//  }
 
 let pecaDeXadrez = 'bispo';
 
