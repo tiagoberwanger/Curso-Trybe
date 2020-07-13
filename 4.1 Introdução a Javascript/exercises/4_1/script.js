@@ -1,3 +1,5 @@
+//Exercício 1
+
 let x = 10;
 let y = 15;
 
@@ -7,6 +9,8 @@ console.log('Multiplicação: ' + (x * y));
 console.log('Divisão: ' + (x / y));
 console.log('Módulo: ' + (x % y));
 
+//Exercício 2
+
 let x = 20;
 let y = 25;
 
@@ -15,6 +19,8 @@ if (x > y) {
 } else {
     console.log("y é maior que x");
 }
+
+//Exercício 3
 
 let x = 30 
 let y = 40
@@ -28,6 +34,8 @@ if (x > y && x > z) {
     console.log("z é maior que x e y");
 }
 
+//Exercício 4
+
 let x = -1
 
 if (x > 0 == true) {
@@ -36,6 +44,7 @@ if (x > 0 == true) {
     console.log("negative");
 }
 
+//Exercício 5
 
 let x = 30 
 let y = 40
@@ -46,6 +55,17 @@ if (x + y + z === 180){
 } else {
     console.log (false);
 }
+
+//Exercício 6
+
+//let variável = valor;
+//switch (expressão) {
+//    case x:
+//      bloco de código 1;
+//      break;
+//    case y:
+//      bloco de código 2;
+//      break;
 
 let pecaDeXadrez = 'bispo';
 
