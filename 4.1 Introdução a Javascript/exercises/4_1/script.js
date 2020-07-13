@@ -117,4 +117,15 @@ if (nota >= 90 && nota <= 100) {
     console.log("nota inválida")
 }
 
+//Exercício 8
+
+let a = 7;
+let b = 10;
+let c = 5;
+
+if ((a % 2 == 0) || (b % 2 == 0) || (c % 2 == 0)) {
+    console.log(true)
+} else {
+    console.log(false)
+}
 
