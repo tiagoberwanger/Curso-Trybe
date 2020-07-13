@@ -16,3 +16,15 @@ if (x > y) {
     console.log("y é maior que x")
 }
 
+let x = 30 
+let y = 40
+let z = 50
+
+if (x > y && x > z) {
+    console.log ("x é maior que y e z")
+} else if (y > x && y > z) {
+    console.log ("y é maior que x e z")
+} else {
+    console.log("z é maior que x e y")
+}
+
