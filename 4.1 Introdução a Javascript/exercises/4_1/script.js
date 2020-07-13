@@ -28,3 +28,12 @@ if (x > y && x > z) {
     console.log("z é maior que x e y")
 }
 
+let x = -1
+
+if (x > 0 == true) {
+    console.log("positive")
+} else {
+    console.log("negative")
+}
+
+
