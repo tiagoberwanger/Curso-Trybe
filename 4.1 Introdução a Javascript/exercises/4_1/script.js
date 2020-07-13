@@ -129,3 +129,17 @@ if ((a % 2 == 0) || (b % 2 == 0) || (c % 2 == 0)) {
     console.log(false)
 }
 
+//Exercício 9
+
+let a = 2;
+let b = 10;
+let c = 6;
+
+let impar = false;
+
+if ((a % 2 != 0) || (b % 2 != 0) || (c % 2 != 0)) {
+    impar = true;
+};
+console.log(impar);
+
+
