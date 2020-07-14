@@ -142,4 +142,17 @@ if ((a % 2 != 0) || (b % 2 != 0) || (c % 2 != 0)) {
 };
 console.log(impar);
 
+//Exercício 10
+
+let custo = 100;
+let venda = 150;
+
+if (custo != 0 && venda != 0) {
+ lucro = venda - (custo * 1.2)
+ console.log (lucro * 1000)
+} else {
+    console.log("valor inválido")
+}
+
+
 
