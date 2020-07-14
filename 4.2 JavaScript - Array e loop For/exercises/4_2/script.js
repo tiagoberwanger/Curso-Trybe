@@ -32,13 +32,24 @@ if (mediaAritmética >20) {
     console.log("valor menor ou igual a 20")
 }
 
-//Exercício5
+//Exercício 5
 
 let maiorValor = Math.max(5, 9, 3, 19, 70, 8, 100, 2, 35, 27);
 
 console.log(maiorValor);
 
 
+//Exercício 6 
 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let count = 0
 
+for (i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+        console.log(numbers[i])
+    } else {
+        console.log ("nenhum valor ímpar encontrado");
+    }
+}
 
+//Exercício 7
