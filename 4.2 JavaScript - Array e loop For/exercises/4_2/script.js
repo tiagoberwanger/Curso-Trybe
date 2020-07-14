@@ -16,3 +16,14 @@ for (i = 0; i < numbers.length; i++) {
 }
 console.log(sum)
 
+//Exercício 3
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+sum = 278
+
+let mediaAritmética = sum/numbers.length
+console.log(mediaAritmética)
+
+
+
+
