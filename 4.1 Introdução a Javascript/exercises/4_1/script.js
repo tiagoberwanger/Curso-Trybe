@@ -154,5 +154,45 @@ if (custo != 0 && venda != 0) {
     console.log("valor inválido")
 }
 
+//Exercício 11
 
+// até 1556.94 = 8%
+// até 1903.98 = 9%
+// até 2594.92 = 9% + 7.5% - 142.80
+// até 2826.55 = 11% + 7.5% - 142.80
+// até 3751.05 = 11% + 15% - 354.80
+// até 4664.68 = 11% + 22.5% - 636.13
+// até 5189.82 = 11% + 27.5% - 869.36
+// acima de 5189.82 = 570.88 + 27.5% - 869.36
+
+let salarioBruto = 1900
+
+let descontoINSS1 = salarioBruto * 0.08
+let descontoINSS2 = salarioBruto * 0.09
+let descontoINSS3 = salarioBruto * 0.11
+let descontoINSS4 = 570.88
+
+if (salarioBruto < 1556.95) {
+    salarioComDescontoINSS = salarioBruto - descontoINSS1
+} else if (salarioBruto < 2594.93) {
+    salarioComDescontoINSS = salarioBruto - descontoINSS2
+} else if (salarioBruto < 5189.82) {
+    salarioComDescontoINSS = salarioBruto - descontoINSS3
+} else {
+    salarioComDescontoINSS = salarioBruto - descontoINSS4
+}
+
+if (salarioComDescontoINSS < 1903.99) {
+    DescontoIR = 0
+} else if (salarioComDescontoINSS < 2826.66){
+    DescontoIR = (salarioComDescontoINSS * 0.075) - 142.80
+} else if (salarioComDescontoINSS < 3751.06) {
+    DescontoIR = (salarioComDescontoINSS * 0.15) - 354.80
+} else if (salarioComDescontoINSS < 4664.68) {
+    DescontoIR = (salarioComDescontoINSS * 0.225) - 636.13
+} else {
+    DescontoIR = (salarioComDescontoINSS * 0.275) - 869.36
+}
+
+console.log(salarioLiquido = salarioComDescontoINSS - DescontoIR)
 
