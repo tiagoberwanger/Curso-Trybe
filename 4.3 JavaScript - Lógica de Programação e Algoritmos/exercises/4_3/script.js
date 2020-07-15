@@ -5,3 +5,9 @@
 for(var n=1; n<=5; n++){
     console.log("*****");
  }
+
+//Exercício 2
+
+for(var n=1; n<=5; n++){
+    console.log("*".repeat(n));
+ }
