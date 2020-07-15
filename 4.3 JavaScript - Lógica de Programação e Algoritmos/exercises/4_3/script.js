@@ -11,3 +11,9 @@ for(var n=1; n<=5; n++){
 for(var n=1; n<=5; n++){
     console.log("*".repeat(n));
  }
+
+ //Exercício 3
+
+for(var n=5, i=0; n>=0, i<=5; n--, i++){
+    console.log(" ".repeat(n) + "*".repeat(i))
+}
