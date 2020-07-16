@@ -21,3 +21,7 @@ console.log(info)
 
 //Exercício 3
 
+for(let propriedade in info) {
+    console.log(propriedade)
+}
+
