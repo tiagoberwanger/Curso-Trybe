@@ -54,3 +54,16 @@ let info = {
   }
 
   
+//Exercício 1 - Parte II
+
+function verifypalindrome(string) {
+        let array = string.split("");
+        let isPalindrome = true;
+        for (let index in array) {
+          if (array[index] != string[(string.length - 1) - index]) {
+            isPalindrome = false;
+          }
+        }
+        return isPalindrome;
+      }
+console.log(verifypalindrome('arara'))
