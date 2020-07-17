@@ -67,3 +67,16 @@ function verifypalindrome(string) {
         return isPalindrome;
       }
 console.log(verifypalindrome('arara'))
+
+
+//Exercício 2 - Parte II
+
+let array = [2, 3, 6, 7, 10, 1];
+for (i=0; i<array.length; i++) {
+    if (array[i] > array[i+1]) {
+        console.log(i)
+    }
+}
+
+//Exercício 3 - Parte II
+
