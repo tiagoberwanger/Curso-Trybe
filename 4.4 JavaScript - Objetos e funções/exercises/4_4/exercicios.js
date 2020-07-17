@@ -71,12 +71,26 @@ console.log(verifypalindrome('arara'))
 
 //Exercício 2 - Parte II
 
-let array = [2, 3, 6, 7, 10, 1];
-for (i=0; i<array.length; i++) {
-    if (array[i] > array[i+1]) {
-        console.log(i)
+function indexHighestValue (array) {
+let indexHighest = 0;
+  for (let index in array) {
+    if (array[indexHighest] < array[index]) {
+     indexHighest = index;
     }
+  } 
+  return indexHighest;
 }
+console.log(indexHighestValue([2, 3, 6, 7, 10, 1]));
 
 //Exercício 3 - Parte II
 
+function indexLowerValue (array) {
+  let indexLowest = 0;
+    for (let index in array) {
+      if (array[indexLowest] > array[index]) {
+        indexLowest = index;
+      }
+    }
+    return indexLowest;
+}
+console.log(indexLowerValue ([2, 4, 6, 7, 10, 0, -3]));
