@@ -88,6 +88,26 @@ textH1.innerHTML = "Exercício 5.1 - JavaScript"
 
 changeTextH1();
 
+//Exercício5
+
+function changeCaps(){
+let paragraph = document.getElementsByTagName('p')[0];
+paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+}
+
+changeCaps();
+
+//Exercício6
+
+function displayContent(){
+let display = document.querySelectorAll('p');
+  for (let index = 0; index < display.length; index++) {
+    console.log(display[index])
+  } 
+} 
+
+displayContent();
+
     </script>
   </body>
 </html>
