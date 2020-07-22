@@ -94,13 +94,24 @@
       divRight.className = "right-content";
       divMain.appendChild(divRight);
 
-      //Exercícios 7
+      //Exercício 7
       
       let img = document.createElement("img")
       img.src="https://picsum.photos/200"
       img.className = "small-image"
       divLeft.appendChild(img);
 
+      //Exercício 8
+      let list = document.createElement("ul")
+      divRight.appendChild(list); 
+      let array = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+      for (let index = 0; index <= 10; index++) {
+        let unnamedList = document.createElement("li")
+        unnamedList.innerHTML = array[index];
+        list.appendChild(unnamedList);
+      }
+    
+      
 
 
     </script>
