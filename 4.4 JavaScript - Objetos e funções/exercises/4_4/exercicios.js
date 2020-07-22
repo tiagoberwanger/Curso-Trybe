@@ -57,28 +57,27 @@ let info = {
 //Exercício 1 - Parte II
 
 function verifypalindrome(string) {
-        let array = string.split("");
-        let isPalindrome = true;
-        for (let index in array) {
-          if (array[index] != string[(string.length - 1) - index]) {
-            isPalindrome = false;
-          }
-        }
-        return isPalindrome;
-      }
-console.log(verifypalindrome('arara'))
-
+  for (let i = 0; i <string.length; i += 1)
+    if (string[i] !== string[string.length - 1 - i]) {
+      return false
+    } 
+  return true
+}
+let palindrome = verifypalindrome('arara')
+console.log(palindrome)
 
 //Exercício 2 - Parte II
 
 function indexHighestValue (array) {
-let indexHighest = 0;
-  for (let index in array) {
-    if (array[indexHighest] < array[index]) {
-     indexHighest = index;
+let indexHighest = array[0];
+let result = 0;
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] > indexHighest) {
+      indexHighest = array[i];
+      result = i;
     }
-  } 
-  return indexHighest;
+  }
+  return result;
 }
 console.log(indexHighestValue([2, 3, 6, 7, 10, 1]));
 
