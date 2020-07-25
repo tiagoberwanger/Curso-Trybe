@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lorem Ipsum</title>
+    </head>
+    
+    <body>
+
+    <section class="content">
+        <h1>Lorem Ipsum</h1>
+
+        <h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h2>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut purus blandit, dictum leo sed, varius sapien. Donec ut purus nec odio aliquet maximus ac mollis arcu. Maecenas id ex vel urna vestibulum malesuada pulvinar et lorem. Cras non scelerisque metus, at consectetur elit. Donec pretium mi non tristique eleifend. Vivamus sed arcu porta, gravida felis ac, commodo arcu. Nunc tempus sed odio ut pharetra. Cras facilisis auctor mauris, quis dignissim diam. In sed velit nec sapien scelerisque pretium ornare in quam. Suspendisse volutpat mauris tortor, ac euismod risus porta vitae. Quisque suscipit quam id diam mattis, in dignissim eros volutpat.</p>
+
+        <p>Quisque id tincidunt justo. Vivamus a posuere massa, at consequat odio. Cras cursus lacus at efficitur iaculis. Donec pellentesque lectus vulputate massa mollis, nec bibendum nisi porta. Cras interdum volutpat erat nec mattis. Nulla velit purus, pulvinar non nibh sit amet, varius sodales arcu. Aliquam maximus non odio sed cursus. Vestibulum sed sem non ipsum lobortis commodo. Morbi pharetra, elit non finibus fermentum, nunc dui consectetur arcu, eu commodo tortor massa quis erat. In pulvinar lacus ac dolor rhoncus, in dictum nunc feugiat.</p>
+
+        <p>Sed porta laoreet diam, eget fringilla tellus scelerisque sit amet. Nunc tempus ultricies mauris porta pharetra. Pellentesque ultrices neque sed libero fringilla, a molestie ipsum dictum. Donec vel mattis lectus, quis tincidunt ex. Proin suscipit sem id volutpat tempus. Mauris ac cursus ante. Donec nec diam non libero convallis ornare et a quam.</p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut purus blandit, dictum leo sed, varius sapien. Donec ut purus nec odio aliquet maximus ac mollis arcu. Maecenas id ex vel urna vestibulum malesuada pulvinar et lorem. Cras non scelerisque metus, at consectetur elit. Donec pretium mi non tristique eleifend. Vivamus sed arcu porta, gravida felis ac, commodo arcu. Nunc tempus sed odio ut pharetra. Cras facilisis auctor mauris, quis dignissim diam. In sed velit nec sapien scelerisque pretium ornare in quam. Suspendisse volutpat mauris tortor, ac euismod risus porta vitae. Quisque suscipit quam id diam mattis, in dignissim eros volutpat.</p>
+
+        <p>Quisque id tincidunt justo. Vivamus a posuere massa, at consequat odio. Cras cursus lacus at efficitur iaculis. Donec pellentesque lectus vulputate massa mollis, nec bibendum nisi porta. Cras interdum volutpat erat nec mattis. Nulla velit purus, pulvinar non nibh sit amet, varius sodales arcu. Aliquam maximus non odio sed cursus. Vestibulum sed sem non ipsum lobortis commodo. Morbi pharetra, elit non finibus fermentum, nunc dui consectetur arcu, eu commodo tortor massa quis erat. In pulvinar lacus ac dolor rhoncus, in dictum nunc feugiat.</p>
+
+        <p>Sed porta laoreet diam, eget fringilla tellus scelerisque sit amet. Nunc tempus ultricies mauris porta pharetra. Pellentesque ultrices neque sed libero fringilla, a molestie ipsum dictum. Donec vel mattis lectus, quis tincidunt ex. Proin suscipit sem id volutpat tempus. Mauris ac cursus ante. Donec nec diam non libero convallis ornare et a quam.</p>
+    </section>
+    <hr>
+    <div class= "color">
+        <h3>Modos de Leitura</h3>
+        <button class="blackandwhite">noturno</button>
+        <button class="beigeandblack">descanso</button>
+        <button class="whiteandblack">normal</button>
+    </div>
+    <div class = "size">
+        <h3>Tamanho da Letra</h3>
+        <button class="small">pequena</button>
+        <button class="medium">normal</button>
+        <button class="large">grande</button>
+    </div>
+    <div class= "style">
+        <h3>Estilo da fonte</h3>
+        <button class="timesnewroman">normal</button>
+        <button class="arial">arial</button>
+        <button class="monospace">monospace</button>
+    </div>
+    </body>
+    <style>
+        *{
+            text-align: justify;
+        }
+        h1, h2, h3, div{
+            text-align: center;
+        }
+        .blackandwhite{
+            color: white;
+            background-color: black;
+        }
+        .beigeandblack{
+            color: black;
+            background-color: beige;
+        }
+        .small{
+            font-size: 10px;
+        }
+        .large{
+            font-size: 22px;
+        }
+        .arial{
+            font-family: arial;
+            font-size: 16px;
+        }
+        .monospace{
+            font-family: monospace;
+            font-size: 16px;
+        }
+
+    </style>
+    <script>
+
+    const btn = document.getElementsByTagName('button');
+    const content = document.getElementsByTagName("section")[0]
+    btn[0].addEventListener('click', setNoturneMode);
+
+    function setNoturneMode() {
+        document.getElementsByTagName("button")[0]
+        content.style.backgroundColor = "black"
+        content.style.color = "white"
+        localStorage.setItem('modo de leitura', 'noturno')
+    }
+    
+    btn[1].addEventListener('click', setRestMode);
+    function setRestMode() {
+        document.getElementsByTagName("button")[1]
+        content.style.backgroundColor = "beige"
+        content.style.color = "black"
+        localStorage.setItem('modo de leitura', 'descanso')
+    }
+
+    btn[2].addEventListener('click', setNormalMode);
+    function setNormalMode() {
+        document.getElementsByTagName("button")[2]
+        content.style.backgroundColor = "white"
+        content.style.color = "black"
+        localStorage.setItem('modo de leitura', 'normal')
+    }
+
+    btn[3].addEventListener('click', setSmallSize);
+    function setSmallSize() {
+        document.getElementsByTagName("button")[3]
+        content.style.fontSize = "10px"
+        localStorage.setItem('tamanho da fonte', 'pequena')
+    }
+
+    btn[4].addEventListener('click', setNormalSize);
+    function setNormalSize() {
+        document.getElementsByTagName("button")[4]
+        content.style.fontSize = "16px"
+        localStorage.setItem('tamanho da fonte', 'normal')
+    }
+
+    btn[5].addEventListener('click', setLargeSize);
+    function setLargeSize() {
+        document.getElementsByTagName("button")[5]
+        content.style.fontSize = "22px"
+        localStorage.setItem('tamanho da fonte', 'grande')
+    }
+
+    btn[6].addEventListener('click', setFontStyle1);
+    function setFontStyle1() {
+        document.getElementsByTagName("button")[6]
+        content.style.fontFamily = "times new roman"
+        localStorage.setItem('estilo da fonte', 'times new roman')
+    }
+
+    btn[7].addEventListener('click', setFontStyle2);
+    function setFontStyle2() {
+        document.getElementsByTagName("button")[7]
+        content.style.fontFamily = "arial"
+        localStorage.setItem('estilo da fonte', 'arial')
+    }
+
+    btn[8].addEventListener('click', setFontStyle3);
+    function setFontStyle3() {
+        document.getElementsByTagName("button")[8]
+        content.style.fontFamily = "monospace"
+        localStorage.setItem('estilo da fonte', 'monospace')
+    }
+    </script>
+</html>
