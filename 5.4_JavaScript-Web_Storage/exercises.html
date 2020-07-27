@@ -79,20 +79,37 @@
     const btn = document.getElementsByTagName('button');
     const content = document.getElementsByTagName("section")[0]
     btn[0].addEventListener('click', setNoturneMode);
+    
+    window.onload=function(){
+        if(localStorage.length==0) {
+            content.style.fontFamily="times new roman";
+            content.style.fontSize="16px";
+            content.style.backgroundColor="white";
+            content.style.color="black";
+
+        } else {
+            content.style.fontFamily=localStorage.getItem('estilo da fonte')
+            content.style.fontSize=localStorage.getItem('tamanho da fonte')
+            content.style.backgroundColor=localStorage.getItem('cor de fundo')
+            content.style.color=localStorage.getItem('cor da letra')
+        }
+    }
 
     function setNoturneMode() {
         document.getElementsByTagName("button")[0]
         content.style.backgroundColor = "black"
         content.style.color = "white"
-        localStorage.setItem('modo de leitura', 'noturno')
+        localStorage.setItem('cor de fundo', 'black')
+        localStorage.setItem('cor da letra', 'white')
     }
-    
+
     btn[1].addEventListener('click', setRestMode);
     function setRestMode() {
         document.getElementsByTagName("button")[1]
         content.style.backgroundColor = "beige"
         content.style.color = "black"
-        localStorage.setItem('modo de leitura', 'descanso')
+        localStorage.setItem('cor de fundo', 'beige')
+        localStorage.setItem('cor da letra', 'black')
     }
 
     btn[2].addEventListener('click', setNormalMode);
@@ -100,28 +117,29 @@
         document.getElementsByTagName("button")[2]
         content.style.backgroundColor = "white"
         content.style.color = "black"
-        localStorage.setItem('modo de leitura', 'normal')
+        localStorage.setItem('cor de fundo', 'white')
+        localStorage.setItem('cor da letra', 'black')
     }
 
     btn[3].addEventListener('click', setSmallSize);
     function setSmallSize() {
         document.getElementsByTagName("button")[3]
         content.style.fontSize = "10px"
-        localStorage.setItem('tamanho da fonte', 'pequena')
+        localStorage.setItem('tamanho da fonte', '10px')
     }
 
     btn[4].addEventListener('click', setNormalSize);
     function setNormalSize() {
         document.getElementsByTagName("button")[4]
         content.style.fontSize = "16px"
-        localStorage.setItem('tamanho da fonte', 'normal')
+        localStorage.setItem('tamanho da fonte', '16px')
     }
 
     btn[5].addEventListener('click', setLargeSize);
     function setLargeSize() {
         document.getElementsByTagName("button")[5]
         content.style.fontSize = "22px"
-        localStorage.setItem('tamanho da fonte', 'grande')
+        localStorage.setItem('tamanho da fonte', '22px')
     }
 
     btn[6].addEventListener('click', setFontStyle1);
