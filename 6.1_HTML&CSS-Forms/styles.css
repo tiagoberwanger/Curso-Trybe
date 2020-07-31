@@ -1,1 +1,17 @@
-...
+fieldset {
+    background-color: whitesmoke;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+div {
+    margin: 10px
+}
