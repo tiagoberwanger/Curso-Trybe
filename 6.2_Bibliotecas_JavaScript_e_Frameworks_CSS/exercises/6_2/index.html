@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Bloco 6.1</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<form name= "myform" id= "myform" method="POST"> 
+        <h1>Formulário de Currículo</h1>
+        <fieldset id="personalData">
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required="required" maxlength="40">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required="required" maxlength="50">
+            </div> 
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" required="required" maxlength="11">
+            </div>
+            <div>
+                <label for="address">Endereço</label>
+                <input type="text" id="address" required="required" maxlength="200">
+            </div>
+            <div>
+                <label for="city">Cidade</label>
+                <input type="text" id="city" required="required" maxlength="28">
+            </div>
+            <div>
+                <label for="state">Estado</label>
+                <select required="required" name="states"id="state">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select><br><br>
+            </div>
+            <div>
+                <input type="radio" name="place" id="place">
+                <label for="casa"><span>Casa</span></label>
+                <input type="radio" name="place" id="place">
+                <label for="apartamento"><span>Apartamento</span></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <div>
+                <textarea name="textArea" id="textArea" cols="30" rows="10" maxlength="1000" required="required"></textarea>
+            </div>
+            <div>
+                <label for="role">role</label>
+                <input type="text" name="role" id="role" required="required" maxlength="40">
+            </div>
+            <div>
+                <label for="roleDesc">Descrição do role</label>
+                <input type="text" name="roleDesc" id="roleDesc" required="required" maxlength="500">
+            </div>
+            <div>
+                <label for="startDate">Data de início</label>
+                <input type="date" name="startDate" id="startDate" required="required">
+            </div>
+        </fieldset>
+        <input type="reset" onclick="clearDiv()" value="Limpar" >
+        <input type = "button" name="button" onclick="check()" value="Enviar">
+    </form>
+    <div id="print"></div>
+    <script src="/script.js"></script>
+</body>
+</html>
