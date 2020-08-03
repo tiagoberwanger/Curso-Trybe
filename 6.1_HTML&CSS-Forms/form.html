@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios Bloco 6.1</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="script" href="./script.js">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <form action="" method="GET"> 
+<form name= "myform" id= "myform" method="POST"> 
         <h1>Formulário de Currículo</h1>
-        <fieldset>
+        <fieldset id="personalData">
             <legend>Dados Pessoais</legend>
             <div>
                 <label for="name">Nome</label>
-                <input type="text" id="name" required="required" maxlength="40">
+                <input type="text" name="name" id="name" required="required" maxlength="40">
             </div>
             <div>
                 <label for="email">E-mail</label>
@@ -25,8 +24,8 @@
                 <input type="text" id="cpf" required="required" maxlength="11">
             </div>
             <div>
-                <label for="adress">Endereço</label>
-                <input type="text" id="adress" required="required" maxlength="200">
+                <label for="address">Endereço</label>
+                <input type="text" id="address" required="required" maxlength="200">
             </div>
             <div>
                 <label for="city">Cidade</label>
@@ -65,9 +64,9 @@
                 </select><br><br>
             </div>
             <div>
-                <input type="radio" name="moradia" id="casa">
+                <input type="radio" name="place" id="place">
                 <label for="casa"><span>Casa</span></label>
-                <input type="radio" name="moradia" id="apartamento">
+                <input type="radio" name="place" id="place">
                 <label for="apartamento"><span>Apartamento</span></label>
             </div>
         </fieldset>
@@ -77,23 +76,22 @@
                 <textarea name="textArea" id="textArea" cols="30" rows="10" maxlength="1000" required="required"></textarea>
             </div>
             <div>
-                <label for="cargo">Cargo</label>
-                <input type="text" name="cargo" id="cargo" required="required" maxlength="40">
+                <label for="role">role</label>
+                <input type="text" name="role" id="role" required="required" maxlength="40">
             </div>
             <div>
-                <label for="desCargo">Descrição do Cargo</label>
-                <input type="text" name="desCargo" id="desCargo" required="required" maxlength="500">
+                <label for="roleDesc">Descrição do role</label>
+                <input type="text" name="roleDesc" id="roleDesc" required="required" maxlength="500">
             </div>
             <div>
                 <label for="startDate">Data de início</label>
                 <input type="date" name="startDate" id="startDate" required="required">
             </div>
         </fieldset>
-        <input type="reset" value="Limpar">
-        <input type="submit" value="Enviar">
+        <input type="reset" onclick="clearDiv()" value="Limpar" >
+        <input type = "button" name="button" onclick="check()" value="Enviar">
     </form>
-    <div>
-       <h1>Meu Currículo</h1> 
-    </div>
+    <div id="print"></div>
+    <script src="/script.js"></script>
 </body>
 </html>
