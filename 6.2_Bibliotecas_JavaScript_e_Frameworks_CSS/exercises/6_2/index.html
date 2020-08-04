@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios Bloco 6.1</title>
-    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="./DatePickerX-master/dist/css/DatePickerX.min.css">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./DatePickerX-master/dist/js/DatePickerX.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/DatePickerX.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<form name= "myform" id= "myform" method="POST"> 
+<form name= "myform" id= "myform" class="js-form" method="POST"> 
         <h1 class="display-4 text-muted">Formulário de Currículo</h1>
         <fieldset id="personalData">
             <legend>Dados Pessoais</legend>
             <div class="form-group container">
                 <label for="name">Nome</label>
-                <input class="form-control" type="text" name="name" id="name" required="required" maxlength="40">
+                <input class="form-control" data-validate-field="name" type="text" name="name" id="name" required="required" maxlength="40">
             </div>
             <div class="form-group container">
                 <label for="email">E-mail</label>
-                <input class="form-control" type="email" name="email" id="email" required="required" maxlength="50">
+                <input class="form-control" data-validate-field="email" type="email" name="email" id="email" required="required" maxlength="50">
             </div> 
             <div class="form-group container">
                 <label for="cpf">CPF</label>
@@ -95,8 +94,8 @@
         <input class="btn btn-success" type = "button" name="button" onclick="check()" value="Enviar">
     </form>
     <div class="form-group" id="print"></div>
-    <script type="text/javascript" src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./jquery-3.5.1.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="./js/DatePickerX.min.js"></script>
+    <script src="./js/just-validate.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

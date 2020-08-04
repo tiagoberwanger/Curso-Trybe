@@ -1,7 +1,5 @@
-// document.getElementById('button').addEventListener('click', function(event) {
-//   event.preventDefault();
-// })
 
+// Função de criar e popular a div
 function check() {
   document.getElementById('print').appendChild(document.createElement('p')).innerHTML = document.getElementById('name').value;
   document.getElementById('print').appendChild(document.createElement('p')).innerHTML = document.getElementById('email').value;
@@ -15,15 +13,47 @@ function check() {
   document.getElementById('print').appendChild(document.createElement('p')).innerHTML = document.getElementById('startDate').value;
 }
 
-function clearDiv() {
-  document.getElementById('print').remove(document.querySelectorAll('p'));
+// Função de remover a div
+clearDiv() {
+  document.getElementById('print').remove(appendChild(document.querySelectorAll('p')))
 }
 
+
+//Bibliotecas externas
+//DatePickerX
 document.getElementById('startDate').DatePickerX.init();
 
+//JustValidate
+new window.JustValidate('.js-form');
 
-// const formElements = document.getElementById('myform').elements;
+new JustValidate('.js-form', {
+  rules: {
+    email: {
+      required: true,
+      email: true
+    },
+  messages: {
+    email: {
+      required: 'O campo e-mail é obrigatório'
+      email: 'O email digitado não é válido'
+    }
+  }
+  } 
+})
 
-// for (let i = 0; i < formElements.length; i++) {
-
-// }
+new window.JustValidate('.js-form', {
+  rules: {
+    email: {
+      required: true,
+      email: true
+    },
+  },
+  messages: {
+    email: {
+      required: 'O campo e-mail é obrigatório'
+      email: 'O email digitado não é válido'
+    },
+  }
+  submitHandler: function (form, values) {
+  },
+});
