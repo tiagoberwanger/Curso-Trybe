@@ -14,46 +14,38 @@ function check() {
 }
 
 // Função de remover a div
-clearDiv() {
-  document.getElementById('print').remove(appendChild(document.querySelectorAll('p')))
+function clearDiv() {
+  let p = document.querySelectorAll('p');
+  for (let i in p){
+    p[i].remove();
+  }
 }
-
 
 //Bibliotecas externas
 //DatePickerX
 document.getElementById('startDate').DatePickerX.init();
 
 //JustValidate
-new window.JustValidate('.js-form');
-
 new JustValidate('.js-form', {
   rules: {
+    name: {
+      required: true
+    },
     email: {
       required: true,
       email: true
     },
-  messages: {
-    email: {
-      required: 'O campo e-mail é obrigatório'
-      email: 'O email digitado não é válido'
-    }
+    cpf: {
+      required: true
+    },
+    address: {
+      required: true
+    },
+    city: {
+      required: true
+    },
+  },
+  submitHandler: function (form, values, ) {
+      check();
   }
-  } 
 })
-
-new window.JustValidate('.js-form', {
-  rules: {
-    email: {
-      required: true,
-      email: true
-    },
-  },
-  messages: {
-    email: {
-      required: 'O campo e-mail é obrigatório'
-      email: 'O email digitado não é válido'
-    },
-  }
-  submitHandler: function (form, values) {
-  },
-});
