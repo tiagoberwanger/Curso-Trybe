@@ -1,0 +1,21 @@
+fieldset {
+    background-color: whitesmoke;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+div#print{
+    border: 1px solid black;
+    width: 550px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
