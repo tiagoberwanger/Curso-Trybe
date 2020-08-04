@@ -19,6 +19,8 @@ function clearDiv() {
   document.getElementById('print').remove(document.querySelectorAll('p'));
 }
 
+document.getElementById('startDate').DatePickerX.init();
+
 
 // const formElements = document.getElementById('myform').elements;
 
