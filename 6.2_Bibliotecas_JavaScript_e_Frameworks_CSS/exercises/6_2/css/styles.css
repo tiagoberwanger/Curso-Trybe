@@ -1,0 +1,24 @@
+fieldset {
+    background-color: whitesmoke;
+}
+
+textarea {
+    resize: none;
+}
+
+div {
+    max-width: 400px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    
+}
+
+div#print{
+    border: 1px solid black;
+    max-width: 600px;
+}

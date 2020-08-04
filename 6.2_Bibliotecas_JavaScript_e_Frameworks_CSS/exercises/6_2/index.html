@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios Bloco 6.1</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/DatePickerX.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<form name= "myform" id= "myform" method="POST"> 
-        <h1>Formulário de Currículo</h1>
+<form name= "myform" id= "myform" class="js-form form" method="POST"> 
+        <h1 class="display-4 text-muted">Formulário de Currículo</h1>
         <fieldset id="personalData">
             <legend>Dados Pessoais</legend>
-            <div>
+            <div class="form-group container">
                 <label for="name">Nome</label>
-                <input type="text" name="name" id="name" required="required" maxlength="40">
+                <input class="form-control" data-validate-field="name" type="text" name="name" id="name" required="required" maxlength="40">
             </div>
-            <div>
+            <div class="form-group container">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" required="required" maxlength="50">
+                <input class="form-control" data-validate-field="email" type="email" name="email" id="email" required="required" maxlength="50">
             </div> 
-            <div>
+            <div class="form-group container">
                 <label for="cpf">CPF</label>
-                <input type="text" id="cpf" required="required" maxlength="11">
+                <input class="form-control" data-validate-field="cpf" type="text" id="cpf" required="required" maxlength="11">
             </div>
-            <div>
+            <div class="form-group container">
                 <label for="address">Endereço</label>
-                <input type="text" id="address" required="required" maxlength="200">
+                <input class="form-control" data-validate-field="address" type="text" id="address" required="required" maxlength="200">
             </div>
-            <div>
+            <div class="form-group container">
                 <label for="city">Cidade</label>
-                <input type="text" id="city" required="required" maxlength="28">
+                <input class="form-control" data-validate-field="city" type="text" id="city" required="required" maxlength="28">
             </div>
-            <div>
+            <div class="form-group container">
                 <label for="state">Estado</label>
-                <select required="required" name="states"id="state">
+                <select class="form-control" required="required" name="states"id="state">
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>
@@ -63,35 +65,37 @@
                     <option value="TO">Tocantins</option>
                 </select><br><br>
             </div>
-            <div>
-                <input type="radio" name="place" id="place">
+            <div class="form-group container">
+                <input class="form-control" type="radio" name="place" id="place">
                 <label for="casa"><span>Casa</span></label>
-                <input type="radio" name="place" id="place">
+                <input class="form-control" type="radio" name="place" id="place">
                 <label for="apartamento"><span>Apartamento</span></label>
             </div>
         </fieldset>
         <fieldset>
             <legend>Dados Profissionais</legend>
-            <div>
-                <textarea name="textArea" id="textArea" cols="30" rows="10" maxlength="1000" required="required"></textarea>
+            <div class="form-group container">
+                <textarea class="form-control" name="textArea" id="textArea" cols="30" rows="10" maxlength="1000" required="required"></textarea>
             </div>
-            <div>
-                <label for="role">role</label>
-                <input type="text" name="role" id="role" required="required" maxlength="40">
+            <div class="form-group container">
+                <label for="role">Cargo</label>
+                <input class="form-control" data-validate-field="text" type="text" name="role" id="role" required="required" maxlength="40">
             </div>
-            <div>
-                <label for="roleDesc">Descrição do role</label>
-                <input type="text" name="roleDesc" id="roleDesc" required="required" maxlength="500">
+            <div class="form-group container">
+                <label for="roleDesc">Descrição do Cargo</label>
+                <input class="form-control" data-validate-field="text" type="text" name="roleDesc" id="roleDesc" required="required" maxlength="500">
             </div>
-            <div>
+            <div class="form-group container">
                 <label for="startDate">Data de início</label>
-                <input type="date" name="startDate" id="startDate" required="required">
+                <input class="form-control" type="text" name="startDate" id="startDate" required="required">
             </div>
         </fieldset>
-        <input type="reset" onclick="clearDiv()" value="Limpar" >
-        <input type = "button" name="button" onclick="check()" value="Enviar">
+        <input class="btn btn-success" type="reset" onclick="clearDiv()" value="Limpar" >
+        <input class="btn btn-success" type="submit" name="button" value="Enviar">
+        <div class="form-group" id="print"></div>
     </form>
-    <div id="print"></div>
-    <script src="/script.js"></script>
+    <script src="./js/DatePickerX.min.js"></script>
+    <script src="./js/just-validate.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
