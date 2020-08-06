@@ -92,5 +92,43 @@ aside ul {
 }
 
 @media screen and (min-width: 768px) {
+    .container {
+        width: 75%;
+        margin: auto;
+        justify-content: center;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .nav{
+        font-size: 2em;
+
+    }
+    .aside-one {
+        font-size: 1.2em;
+        text-align: left;
+        float: left;
+        
+    }
+    .aside-two {
+        font-size: 1.2em;
+        text-align: center;
+        background-color: whitesmoke;
+        float: right;
+        width: 250px;
+        margin-top: 75px;
+    }
+    .main-content {
+        font-size: 1.3em;
+        text-align: justify;
+        clear:both;
+    }
+    .footer {
+        text-align: center;
+        background-color: whitesmoke;
+    }
 
 }
