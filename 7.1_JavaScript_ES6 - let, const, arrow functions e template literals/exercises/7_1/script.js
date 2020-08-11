@@ -22,4 +22,27 @@ const longestWord = text => {
     return result
 }
 
-console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"))
+//Part II - Exercise IV
+const skills = ['javaScript(SQN!)', 'css', 'html'];
+const substituteWordInArray = string => {
+    let stringPassed = "Tryber x na área!"
+    let word = stringPassed.replace('x', string)
+    return word;
+}
+
+const receiveString = text => {
+    let newOrd = 0;
+    let orderString = skills.sort();
+    let newString = `
+    ${text}
+    Minhas cinco principais habilidades são:
+    ` 
+    for (let index = 0; index < orderString.length; index++) {
+        newOrd = orderString[index];
+        newString += `
+        ${newOrd}
+        `
+    }
+    return newString;
+}
+console.log(receiveString(substituteWordInArray('Tiago')));
