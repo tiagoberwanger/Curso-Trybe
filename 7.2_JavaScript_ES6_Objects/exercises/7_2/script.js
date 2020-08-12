@@ -53,10 +53,6 @@ const lesson1 = {
     turno: 'noite',
   };
 
-
-  console.log('----------------------------------')
-
-
   //1
   const addShift = (object, key, value) => {
   object[key] = value;
@@ -88,11 +84,15 @@ const lesson1 = {
 
   //6
   const returnAllStudents = object => {
-    //falta fazer!
-    //falta fazer!
-    //falta fazer!
+  let total = 0;
+  let allLessons = Object.values(object);
+    for (let i in allLessons) {
+      total += allLessons[i].numeroEstudantes;
+    }
+    return total;
   }
-
+  console.log(returnAllStudents(allLessons));
+  
   //7 
   const valueKeyPosition = (object, position) => {
     return Object.values(object)[position]
