@@ -18,9 +18,11 @@ assert.strictEqual(sum(4, 5), 9);
 
 assert.strictEqual(sum(0, 0), 0);
 
-assert.throws(() => {
+assert.throws (function () {
     sum(4, "5");
 })
 
-// implemente seus testes aqui
+assert.throws (function () {
+  sum(4, "5");
+}, /paramenters must be numbers/)
 
