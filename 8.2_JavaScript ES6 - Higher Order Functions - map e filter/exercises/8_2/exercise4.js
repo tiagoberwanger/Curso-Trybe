@@ -92,5 +92,4 @@ function oldBooks() {
     return books.filter(years => 2020 - years.releaseYear >= 60).sort(function(older1, older2) { return older1.releaseYear - older2.releaseYear}).map(book => book.name)
 }
 
-console.log(oldBooks());
-// assert.deepEqual(oldBooks(), expected_result);
+assert.deepEqual(oldBooks(), expected_result);
