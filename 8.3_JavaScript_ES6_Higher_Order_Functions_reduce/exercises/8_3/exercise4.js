@@ -1,4 +1,4 @@
-//Encontre o livro com o maior nome.
+
 const assert = require('assert');
 
 const books = [
@@ -74,8 +74,9 @@ const expected_result = {
   releaseYear: 1991
 };
 
+//Encontre o livro com o maior nome.
 function longestNamedBook() {
-  // escreva seu código aqui
+  return books.reduce((longest, book) => (book > longest) ? book : longest);
 }
 
 assert.deepEqual(longestNamedBook(), expected_result);
