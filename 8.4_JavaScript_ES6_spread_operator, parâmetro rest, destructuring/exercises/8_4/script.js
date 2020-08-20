@@ -1,0 +1,1 @@
+Iniciando os exercícios |_|
