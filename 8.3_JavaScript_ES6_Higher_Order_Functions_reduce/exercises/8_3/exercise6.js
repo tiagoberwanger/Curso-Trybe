@@ -7,7 +7,11 @@ const notas = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
 
 function studentAverage() {
-  // escreva seu código aqui
+  const studentsAverage = alunos
+    .map((nomes, index) => ({name: nomes, average: (notas[index]
+    .reduce((acumulator, number) => (acumulator + number))/notas[index].length)}));
+  return studentsAverage
+
 }
 
 const expected = [
@@ -17,3 +21,4 @@ const expected = [
 ];
 
 assert.deepEqual(studentAverage(), expected);
+

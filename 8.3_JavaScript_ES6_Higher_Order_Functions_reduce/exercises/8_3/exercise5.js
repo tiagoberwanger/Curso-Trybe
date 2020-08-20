@@ -11,7 +11,10 @@ const names = [
 
 
 function containsA() {
-  // escreva seu código aqui
+  return names
+    .map(letters => letters
+    .split('a').length)
+    .reduce((sum, elements) => sum + elements)
 }
 
 assert.deepEqual(containsA(), 20);
