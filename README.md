@@ -1,18 +1,18 @@
 # Curso-Trybe
 
-Organização dos Conteúdos:
+## Organização dos Conteúdos:
 
-1.4 Unix & Bash (exercícios)
+- 1.4 Unix & Bash (exercícios)
 
-1.5 Shell Script (exercícios)
+- 1.5 Shell Script (exercícios)
 
-2.2 Git & GitHub - Entendendo os comandos (exercícios)
+- 2.2 Git & GitHub - Entendendo os comandos (exercícios)
 
-2.3 Internet - Entendendo como ela funciona (exercícios)
+- 2.3 Internet - Entendendo como ela funciona (exercícios)
 
-3.1 HTML & CSS - Estruturas de página (exercícios)
+- 3.1 HTML & CSS - Estruturas de página (exercícios)
 
-3.4 HTML Semântico (exercícios)
+- 3.4 HTML Semântico (exercícios)
 
 4.1 Introdução - JavaScript (exercícios)
 
@@ -43,3 +43,27 @@ Organização dos Conteúdos:
 7.2 JavaScript ES6 Objects (exercícios)
 
 7.3 Testes unitários em JavaScript (exercícios)
+
+7.4 Projeto - JavaScript Testes Unitários (exercícios)
+
+8.1 JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort (exercícios)
+
+8.2 JavaScript ES6 - Higher Order Functions - map e filter (exercícios)
+
+8.3 JavaScript ES6 - Higher Order Functions - reduce (exercícios)
+
+8.4 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais (exercícios)
+
+9.1 JavaScript Assíncrono e Callbacks (exercícios)
+
+9.2 JavaScript Promises (exercícios)
+
+10.1 Primeiros passos no Jest (exercícios)
+
+10.2 Jest - Testes Assíncronos (exercícios)
+
+10.3 Jest - Simulando comportamentos (exercícios)
+
+10.4 Projeto - Jest Assíncrono e Mocking (exercícios)
+
+
