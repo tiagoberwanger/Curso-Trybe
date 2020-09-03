@@ -64,6 +64,5 @@
 
 - 10.3 Jest - Simulando comportamentos (exercícios)
 
-- 10.4 Projeto - Jest Assíncrono e Mocking (exercícios)
 
 
