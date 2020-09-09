@@ -1,26 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+//Criando uma lista de tarefas e renderizando no React
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const tasks = ['acordar', 'tomar café', 'almoçar', 'estudar', 'caminhar', 'jantar', 'ver séries', 'dormir']
+  const task = () => tasks
+  .map((task) => <li>{task}</li>);
+  return task();
 }
 
 export default App;
