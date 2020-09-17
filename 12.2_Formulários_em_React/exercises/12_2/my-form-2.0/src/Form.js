@@ -28,15 +28,14 @@ class Form extends React.Component {
 	}
 
 	showContent = () => {
-		const showContent = document.querySelector('.container')
-		const div = document.createElement('div')
-		showContent.appendChild(div)
-		div.innerHTML = Object.values(this.state).map(element => element)
+		[Object.values(this.state)].map((item, key) => {
+			return (
+			<p>{item}</p>
+			)
+		})
 	}
 
 	clearContent = () => {
-		const div = document.querySelector('.container')
-		div.innerHTML = ""
 	}
 
 	render() {
@@ -98,7 +97,7 @@ class Form extends React.Component {
 				</fieldset>
 
 				<button onClick={this.showContent}>Submeter</button>
-						<div className="container"></div>
+				{/* exibir aqui */}
 				<button onClick={this.clearContent}>Limpar</button>
 			</div>
 		)
