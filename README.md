@@ -64,5 +64,17 @@
 
 - 10.3 Jest - Simulando comportamentos (exercícios)
 
+- 11.1 Hello, world! no React (exercícios)
+
+- 11.2 Componentes React (exercícios)
+
+- 12.1 Componentes com estado e eventos (exercícios)
+
+- 12.2 Formulários no React (exercícios)
+
+- 13.1 Ciclo de vida de componentes (exercícios)
+
+- 13.2 React Router (exercícios)
+
 
 
