@@ -2,6 +2,8 @@
 
 ## Organização dos Conteúdos:
 
+### Introdução:
+
 - 1.4 Unix & Bash (exercícios)
 
 - 1.5 Shell Script (exercícios)
@@ -63,6 +65,8 @@
 - 10.2 Jest - Testes Assíncronos (exercícios)
 
 - 10.3 Jest - Simulando comportamentos (exercícios)
+
+### FrontEnd:
 
 - 11.1 Hello, world! no React (exercícios)
 
