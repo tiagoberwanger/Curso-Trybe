@@ -73,21 +73,21 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 10-1: *First steps at Jest*
 - [x] 10-1: *Jest - Asynchronous Tests*
 - [x] 10-2: *Jest - Simulating behaviors*
-- [x] 10-3: *[Project - Asynchronous Jest and Mocking]()*
+- [x] 10-3: *[Project - Asynchronous Jest and Mocking](https://github.com/tiagoberwanger/Projeto-Jest-Assincrono-e-Mocking)*
 ##### Block 11: Introduction - React
 - [x] 11-1: *Introduction - React*
 - [x] 11-1: *'Hello, world!' in React!*
 - [x] 11-2: *React Components*
-- [x] 11-3: *[Project - Movie Cards Library]()*
+- [x] 11-3: *[Project - Movie Cards Library](https://github.com/tiagoberwanger/Projeto-Movie-Card-Library)*
 ##### Block 12: React
 - [x] 12-1: *Components with status*
 - [x] 12-2: *React events and forms*
-- [x] 12-3: *[Project - Movie Cards Library Stateful]()*
+- [x] 12-3: *[Project - Movie Cards Library Stateful](https://github.com/tiagoberwanger/Projeto-Movie-Card-Library-Stateful)*
 ##### Block 13: React
 - [x] 13-1: *Improving component reuse: props.children and PropTypes*
 - [x] 13-2: *React component life cycle*
 - [x] 13-3: *React Router*
-- [x] 13-4: *[Project - Movie Cards Library CRUD]()*
+- [x] 13-4: *[Project - Movie Cards Library CRUD]*
 ##### Block 14: Agile Methodologies
 - [ ] 14-1: *Agile Methodologies*
 - [ ] 14-2: *[Project - Frontend Online Store]*
