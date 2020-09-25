@@ -1,4 +1,4 @@
-# Tiago Berwanger [In](https://www.linkedin.com/in/tiago-berwanger/)
+# Tiago Berwanger ##[In](https://www.linkedin.com/in/tiago-berwanger/)
 
 This GitHub contains all learning activities developed by *Tiago Berwanger* while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -87,7 +87,6 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 13-2: *React component life cycle*
 - [x] 13-3: *React Router*
 - [x] 13-4: *[Project - Movie Cards Library CRUD]()*
-<font color='grey'>
 ##### Block 14: Agile Methodologies
 - [ ] 14-1: *Agile Methodologies*
 - [ ] 14-2: *[Project - Frontend Online Store]()*
@@ -172,5 +171,5 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 30-3: *[Project - Stranger Things]()*
 #### Block 31: Using all knowledge so far
 - [ ] 31-1: *[Project - Trybeer]()*
-</font>
+
 # [...]
