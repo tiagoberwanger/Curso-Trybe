@@ -39,9 +39,9 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 5-3: *JavaScript - Events*
 - [x] 5-4: *JavaScript - Web Storage*
 - [x] 5-5: *Introduction - JavaScript - Projects*
-- [x] 5-5: *[Project - Meme Generator]()*
-- [x] 5-6: *[Project - Art with Pixels]()*
-- [x] 5-7: *[Project - Task List]()*
+- [x] 5-5: *[Project - Meme Generator](https://github.com/tiagoberwanger/Projeto-Meme-Generator)*
+- [x] 5-6: *[Project - Art with Pixels](https://github.com/tiagoberwanger/Projeto-Pixels-Art)*
+- [x] 5-7: *[Project - Task List](https://github.com/tiagoberwanger/Projeto-To-Do-List)*
 
 ## Front-end development :hourglass_flowing_sand:
 ##### Block 6: Introduction - Front-end
@@ -52,22 +52,22 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 6-3: *CSS Flexbox - Part 1*
 - [x] 6-4: *CSS Flexbox - Part 2*
 - [x] 6-5: *Responsive CSS - Mobile First*
-- [x] 6-6: *[Project - Facebook home]()*
+- [x] 6-6: *[Project - Facebook home](https://github.com/tiagoberwanger/Projeto-Facebook-Signup)*
 ##### Block 7: JavaScript ES6 & Unit Tests
 - [x] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
 - [x] 7-2: *JavaScript ES6 - Objects*
 - [x] 7-3: *JavaScript unit tests*
-- [x] 7-4: *[Project - JavaScript Unit Tests]()*
+- [x] 7-4: *[Project - JavaScript Unit Tests](https://github.com/tiagoberwanger/Projeto-JS-Unit-Tests)*
 ##### Block 8: JavaScript ES6
 - [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort*
 - [x] 8-2: *JavaScript ES6 - Higher Order Functions - map and filter*
 - [x] 8-3: *JavaScript ES6 - Higher Order Functions - reduce*
 - [x] 8-4: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
-- [x] 8-5: *[Project - Zoo functions]()*
+- [x] 8-5: *[Project - Zoo functions](https://github.com/tiagoberwanger/Projeto-Zoo-Functions)*
 ##### Block 9: Asynchronicity & Callbacks
 - [x] 9-2: *Asynchronous JavaScript and Callbacks*
 - [x] 9-3: *JavaScript Promises*
-- [x] 9-4: *[Project - Shopping Cart]()*
+- [x] 9-4: *[Project - Shopping Cart](https://github.com/tiagoberwanger/Projeto-shopping-cart)*
 ##### Block 10: Jest
 - [x] 10-1: *First steps at Jest*
 - [x] 10-1: *Jest - Asynchronous Tests*
