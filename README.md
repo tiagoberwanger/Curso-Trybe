@@ -1,4 +1,4 @@
-# Tiago Berwanger [##In](https://www.linkedin.com/in/tiago-berwanger/)
+# Tiago Berwanger [In](https://www.linkedin.com/in/tiago-berwanger/)
 
 This GitHub contains all learning activities developed by *Tiago Berwanger* while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
