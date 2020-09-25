@@ -108,7 +108,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 18-1: *React Context API*
 - [ ] 18-2: *React Hooks - useState and useContext*
 - [ ] 18-3: *React Hooks - useEffect and custom Hooks*
-- [ ] 18-4: *[Project - Datatable StarWars with Context API and Hooks]()*
+- [ ] 18-4: *[Project - Datatable StarWars with Context API and Hooks]*
 ##### Block 19: Final Front-end Project
 - [ ] 19-1: *[Project - Recipe App]*
 
