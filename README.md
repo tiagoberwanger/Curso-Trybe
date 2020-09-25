@@ -89,27 +89,27 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 13-4: *[Project - Movie Cards Library CRUD]()*
 ##### Block 14: Agile Methodologies
 - [ ] 14-1: *Agile Methodologies*
-- [ ] 14-2: *[Project - Frontend Online Store]()*
+- [ ] 14-2: *[Project - Frontend Online Store]*
 ##### Block 15: React
 - [ ] 15-1: *Testing React with the React Testing Library*
 - [ ] 15-2: *Testing React with the React Testing Library - Part 2*
-- [ ] 15-3: *[Project - React Tests]()*
+- [ ] 15-3: *[Project - React Tests]*
 ##### Block 16: React
 - [ ] 16-1: *Introduction to Redux*
 - [ ] 16-2: *React with Redux - part 1*
 - [ ] 16-3: *React with Redux - Practice*
 - [ ] 16-4: *React with Redux - part 2*
 - [ ] 16-4: *Synchronous tests with React-Redux*
-- [ ] 16-6: *[Project - Table with data filters]()*
+- [ ] 16-6: *[Project - Table with data filters]*
 ##### Block 17: React
-- [ ] 17-1: *[Project - Trivia Game]()*
+- [ ] 17-1: *[Project - Trivia Game]*
 ##### Block 18: React & Redux
 - [ ] 18-1: *React Context API*
 - [ ] 18-2: *React Hooks - useState and useContext*
 - [ ] 18-3: *React Hooks - useEffect and custom Hooks*
 - [ ] 18-4: *[Project - Datatable StarWars with Context API and Hooks]()*
 ##### Block 19: Final Front-end Project
-- [ ] 19-1: *[Project - Recipe App]()*
+- [ ] 19-1: *[Project - Recipe App]*
 
 ## Back-end development :hourglass_flowing_sand:
 ##### Block 20: Introduction - Relational Databases
@@ -119,56 +119,56 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 20-2: *Finding data in a database*
 - [ ] 20-3: *Filtering data specifically*
 - [ ] 20-4: *Manipulating tables*
-- [ ] 20-5: *[Project - All For One]()*
+- [ ] 20-5: *[Project - All For One]*
 ##### Block 21: Relational Databases
 - [ ] 21-1: *Most used functions in SQL*
 - [ ] 21-2: *Uncomplicating JOINs and UNIONs*
 - [ ] 21-3: *Stored Routines & Subqueries*
-- [ ] 21-4: *[Project - Vocabulary Booster]()*
+- [ ] 21-4: *[Project - Vocabulary Booster]*
 ##### Block 22: Relational Databases
 - [ ] 22-1: *Transforming ideas into a database model*
 - [ ] 22-2: *Normalization, Normal Shapes and Dumps*
 - [ ] 22-2: *Transforming ideas into a database model - Part 2*
-- [ ] 22-3: *[Project - One For All]()*
+- [ ] 22-3: *[Project - One For All]*
 ##### Block 23: Introduction - NoSQL
 - [ ] 23-1: *Introduction - NoSQL*
 - [ ] 23-1: *MongoDB - Introduction*
 - [ ] 23-3: *Filter Operators*
-- [ ] 23-4: *[Project - Data Flights]()*
+- [ ] 23-4: *[Project - Data Flights]*
 ##### Block 24: Updates
 - [ ] 24-1: *Simple Updates*
 - [ ] 24-2: *Complex Updates - Arrays - Part 1*
 - [ ] 24-3: *Complex Updates - Arrays - Part 2*
-- [ ] 24-4: *[Project - Commerce]()*
+- [ ] 24-4: *[Project - Commerce]*
 ##### Block 25: Aggregation Framework
 - [ ] 25-1: *Aggregation Framework - Part 1*
 - [ ] 25-2: *Aggregation Framework - Part 2*
-- [ ] 25-3: *[Project - Aggregations]()*
+- [ ] 25-3: *[Project - Aggregations]*
 ##### Block 26: Intro - NodeJS
 - [ ] 26-1: *What It Is - NodeJS*
 - [ ] 26-1: *NodeJS - Introduction*
 - [ ] 26-2: *NodeJS - Asynchronous Flow*
 - [ ] 26-3: *NodeJS - Architecture*
-- [ ] 26-4: *[Project - A CLI of Ice and Fire]()*
+- [ ] 26-4: *[Project - A CLI of Ice and Fire]*
 ##### Block 27: NodeJS
 - [ ] 27-1: *Express: HTTP with Node.js*
 - [ ] 27-2: *Software Architecture - Introduction to MVC*
-- [ ] 27-3: *[Project - Cookmaster]()*
+- [ ] 27-3: *[Project - Cookmaster]*
 ##### Block 28: Software Architecture
 - [ ] 28-1: *Software Architecture - Service Layer*
 - [ ] 28-2: *Web Architecture - Rest & Restful*
-- [ ] 28-3: *[Project - Online Store Manager]()*
+- [ ] 28-3: *[Project - Online Store Manager]*
 ##### Block 29: Node - JSON Web Token
 - [ ] 29-1: *NodeJS - JWT - (JSON Web Token)*
 - [ ] 29-2: *NodeJS - Upload files with Multer*
-- [ ] 29-3: *[Project - Cookmaster version 2]()*
+- [ ] 29-3: *[Project - Cookmaster version 2]*
 
 ## Infrastructures :hourglass_flowing_sand:
 ##### Block 30: Introduction - Deploy
 - [ ] 30-1: *Introduction - Deploy*
 - [ ] 30-1: *Infrastructure - Deploy with Heroku*
 - [ ] 30-2: *Deploy - Process Managers*
-- [ ] 30-3: *[Project - Stranger Things]()*
+- [ ] 30-3: *[Project - Stranger Things]*
 #### Block 31: Using all knowledge so far
 - [ ] 31-1: *[Project - Trybeer]()*
 
