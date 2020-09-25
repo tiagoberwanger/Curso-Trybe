@@ -1,13 +1,5 @@
 # Tiago Berwanger [[In](https://www.linkedin.com/in/tiago-berwanger/)]
 
-This GitHub contains all learning activities developed by *Tiago Berwanger* while studying at [Trybe](https://www.betrybe.com/) :rocket:
-
-*"Trybe is a school of the future that was founded with the purpose of generating significant opportunities for anyone who wants to improve their lives and build a successful career in technology. Assuming a genuine commitment to people, at Trybe they only start paying when they get a good job."*
-
-The program has more than **1,500 hours** of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
-
-#### Trybe Repository *(https://github.com/tiagoberwanger/Curso-Trybe)*
-
 ## Introduction - Web Development :white_check_mark:
 ##### Block 1: Introduction - Unix & Shell
 - [x] 1-3: *Setup*
