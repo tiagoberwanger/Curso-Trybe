@@ -26,13 +26,14 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 3-2: *HTML & CSS - Getting Started with CSS*
 - [x] 3-3: *HTML & CSS - Selectors and positioning*
 - [x] 3-4: *Semantic HTML*
-- [x] 3-5: *[Project - HTML & CSS]()*
+- [x] 3-5: *[Project - HTML & CSS](https://github.com/tiagoberwanger/Projeto-Lessons-Learned)*
 ##### Block 4: Introduction - JavaScript
 - [x] 4-1: *JavaScript - Introduction - JavaScript*
 - [x] 4-1: *JavaScript - Getting Started*
 - [x] 4-2: *JavaScript - Array and For Loop*
 - [x] 4-3: *JavaScript - Programming Logic and Algorithms*
 - [x] 4-4: *JavaScript - Objects and functions*
+- [x] 4-5: *[Project - Playground Functions](https://github.com/tiagoberwanger/Projeto-Playground-Functions)*
 ##### Block 5: Introduction - JavaScript - Projects
 - [x] 5-1: *JavaScript - DOM and selectors*
 - [x] 5-2: *JavaScript - Working with elements*
@@ -170,6 +171,6 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 30-2: *Deploy - Process Managers*
 - [ ] 30-3: *[Project - Stranger Things]*
 #### Block 31: Using all knowledge so far
-- [ ] 31-1: *[Project - Trybeer]()*
+- [ ] 31-1: *[Project - Trybeer]*
 
 # [...]
