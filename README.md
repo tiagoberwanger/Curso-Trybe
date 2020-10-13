@@ -79,13 +79,13 @@
 - [x] 13-1: *Improving component reuse: props.children and PropTypes*
 - [x] 13-2: *React component life cycle*
 - [x] 13-3: *React Router*
-- [x] 13-4: *[Project - Movie Cards Library CRUD]*
+- [x] 13-4: *[Project - Movie Cards Library CRUD](https://github.com/tiagoberwanger/Projeto-Movie-Card-Library-CRUD)*
 ##### Block 14: Agile Methodologies
-- [ ] 14-1: *Agile Methodologies*
-- [ ] 14-2: *[Project - Frontend Online Store]*
+- [x] 14-1: *Agile Methodologies*
+- [x] 14-2: *[Project - Frontend Online Store](https://github.com/tiagoberwanger/Projeto-frontend-online-store)*
 ##### Block 15: React
-- [ ] 15-1: *Testing React with the React Testing Library*
-- [ ] 15-2: *Testing React with the React Testing Library - Part 2*
+- [x] 15-1: *Testing React with the React Testing Library*
+- [x] 15-2: *Testing React with the React Testing Library - Part 2*
 - [ ] 15-3: *[Project - React Tests]*
 ##### Block 16: React
 - [ ] 16-1: *Introduction to Redux*
