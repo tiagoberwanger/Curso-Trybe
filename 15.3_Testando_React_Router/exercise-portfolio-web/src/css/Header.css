@@ -1,0 +1,14 @@
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: #282c34;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+}
