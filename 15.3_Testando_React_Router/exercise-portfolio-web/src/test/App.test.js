@@ -3,24 +3,30 @@ import { fireEvent } from '@testing-library/react';
 import App from '../App';
 import renderWithRouter from './renderWithRouter'
 
-test('renders learn react link', () => {
-  const { getByText, history } = renderWithRouter(<App />);
+test('check current page', () => {
+  const { getByText } = renderWithRouter(<App />);
 
-  const referencePage = getByText(/texto da página/i);
-  expect(referencePage).toBeInTheDocument();
+  const homepage = getByText(/Tiago Berwanger/i);
+  expect(homepage).toBeInTheDocument();
 
-  fireEvent.click(getByText(/texto do link/i))
-  const { pathname } = history.location;
-  expect(pathname).toBe('/url')
-  const page = getByText(/texto da página/i)
-  expect(page).toBeInTheDocument();
 });
-
 
 test('renders learn react link', () => {
   const { getByText, history } = renderWithRouter(<App />);
 
-  history.push('/pagina-que-nao-existe');
-
-  expect(getByText(/Página não encontrada/i)).toBeInTheDocument();
+  fireEvent.click(getByText(/Projetos/i))
+  const pathname = history.location.pathname;
+  expect(pathname).toBe('/projects')
+  const projects = getByText(/Projetos/i)
+  expect(projects).toBeInTheDocument();
+  
 });
+
+
+// test('renders learn react link', () => {
+//   const { getByText, history } = renderWithRouter(<App />);
+
+//   history.push('/pagina-que-nao-existe');
+
+//   expect(getByText(/Página não encontrada/i)).toBeInTheDocument();
+// });
