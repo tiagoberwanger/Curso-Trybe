@@ -86,9 +86,9 @@
 ##### Block 15: React
 - [x] 15-1: *Testing React with the React Testing Library*
 - [x] 15-2: *Testing React with the React Testing Library - Part 2*
-- [ ] 15-3: *[Project - React Tests]*
+- [x] 15-3: *[Project - React Tests](https://github.com/tiagoberwanger/Projeto-React-Tests)*
 ##### Block 16: React
-- [ ] 16-1: *Introduction to Redux*
+- [x] 16-1: *Introduction to Redux*
 - [ ] 16-2: *React with Redux - part 1*
 - [ ] 16-3: *React with Redux - Practice*
 - [ ] 16-4: *React with Redux - part 2*
