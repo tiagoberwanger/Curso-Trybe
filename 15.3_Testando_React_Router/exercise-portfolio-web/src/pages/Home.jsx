@@ -9,7 +9,7 @@ class Home extends React.Component {
     return (
       <div>
         <header className="header">
-          <Link to="/about">Sobre</Link>
+          <Link data-testid="about" to="/about">Sobre</Link>
           <Link to="/projects">Projetos</Link>
           <Link to="/contact">Contato</Link>
         </header>
