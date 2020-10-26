@@ -7,14 +7,20 @@ function Form ({input}) {
 	<div>
 		<h1>Formulário em React</h1>
 		<label>
-			Nome
+			Nome   
 			<input name='name' type='text' onChange={(ev) => input(ev.target.name, ev.target.value)}>	
 			</input>
 		</label>
 		<br />
 		<label>
-			E-mail
-			<input name='mail' type='text' onChange={(ev) => input(ev.target.name, ev.target.value)}>	
+			E-mail   
+			<input name='email' type='text' onChange={(ev) => input(ev.target.name, ev.target.value)}>	
+			</input>
+		</label>
+		<br />
+		<label>
+			CPF
+			<input name='cpf' type='text' onChange={(ev) => input(ev.target.name, ev.target.value )}>	
 			</input>
 		</label>
 	</div> 
@@ -23,7 +29,8 @@ function Form ({input}) {
 
 const mapStateToProps = (state) => ({
 	name: state.reducer.form.name,
-	mail: state.reducer.form.mail,
+	email: state.reducer.form.email,
+	cpf: state.reducer.form.cpf,
 })
 
 const mapDispatchToProps = (dispatch) => ({
