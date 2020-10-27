@@ -56,3 +56,13 @@ class Register extends React.Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+  userLogin: state.loginReducer
+});
+
+const mapDispatchToProps = dispatch => ({
+  addRegister: e => dispatch(addRegister(e))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Register);
