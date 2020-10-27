@@ -1,14 +1,8 @@
-import { createStore, combineReducers } from 'redux'
-import loginReducer from '../reducers/login'
-import registerReducer from '../reducers/register'
-
-const rootReducer = combineReducers ({ 
-    loginReducer,
-    registerReducer,
-})
+import { createStore } from 'redux'
+import rootReducers from '../reducers/index'
 
 const store = createStore(
-    rootReducer,
+    rootReducers,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
