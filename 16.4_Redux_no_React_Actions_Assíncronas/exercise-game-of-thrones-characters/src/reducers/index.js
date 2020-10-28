@@ -1,18 +1,29 @@
-import { RECEIVE_API} from '../actions/index'
+import { RECEIVE_API, REQUEST_API, ERROR_API} from '../actions/index'
 
 const initialState = {
-    character: {
-        books: [],
-        aliases: []
-    },
-    error: {}
+    character: '',
+    loading: false,
+   
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
+        case REQUEST_API:
+            return {
+                ...state, 
+                loading: true,
+            }
         case RECEIVE_API:
             return {
-                ...state, character: action.character[0], 
+                ...state, 
+                loading: false, 
+                character: action.character[0], 
+            }
+        case ERROR_API:
+            return {
+                ...state, 
+                loading: false, 
+                error: action.error, 
             }
         default:
             return state;

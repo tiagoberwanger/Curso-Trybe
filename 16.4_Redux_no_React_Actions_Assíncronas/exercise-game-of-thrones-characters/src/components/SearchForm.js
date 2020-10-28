@@ -26,8 +26,6 @@ submitName(e) {
   const { inputText } = this.state;
   //desestruture a ação do thunk como propriedade aqui
   const { thunkCharacter } = this.props;
-
-
   this.setState({
     inputText: '',
     characterSearched: inputText,
