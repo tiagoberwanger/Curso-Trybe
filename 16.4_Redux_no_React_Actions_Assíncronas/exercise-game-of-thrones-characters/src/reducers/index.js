@@ -1,7 +1,10 @@
 import { RECEIVE_API, REQUEST_API, ERROR_API} from '../actions/index'
 
 const initialState = {
-    character: '',
+    character: {
+        aliases: [],
+        books: [],
+    },
     loading: false,
    
 }

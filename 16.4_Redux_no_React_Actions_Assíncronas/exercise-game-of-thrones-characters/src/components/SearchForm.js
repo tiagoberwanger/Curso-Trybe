@@ -12,6 +12,7 @@ class SearchForm extends React.Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.submitName = this.submitName.bind(this);
+    // this.validate = this.validate.bind(this);
   }
 
 handleChange(e) {
@@ -36,15 +37,27 @@ submitName(e) {
 
 }
 
+// validate() {
+//   let filled = document.getElementsByClassName('input').value;
+//   if (filled == "") {
+//     alert('please enter your character name')
+//     return false;
+//   }
+// }
+
 render() {
   const { inputText } = this.state;
   return (
-    <div>
+    <div className="search">
       <form onSubmit={this.submitName}>
         <h1>Type a character below:</h1>
-        <input onChange={this.handleChange} 
+        <input
+        className="input"
+        data-testid="input" 
+        onChange={this.handleChange} 
         placeholder="Enter Character"
         value={inputText}
+        required
         />
         <div className="buttonSection">
           <button className="submitButton" type="submit" >Search!</button>

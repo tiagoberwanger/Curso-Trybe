@@ -7,12 +7,17 @@ class CharacterInfo extends React.Component {
     const { loading, character, error } = this.props;
     if (!loading && character) {
       return (
-        <ul>
-          <li>Name: {character.name}</li>
-          <li>Gender: {character.gender}</li>
-          <li>Aliases: {character.aliases.map((alias, index) => <p key={`${alias}-${index}`}>{alias}</p>)}</li>
-          <li>Books: {character.books.map((book, index) => <p key={`${book}-${index}`}>{book}</p>)}</li>
-        </ul>
+        <div className="result">
+          <ul>
+            Name: <li>{character.name}</li>
+            Gender: <li>{character.gender}</li>
+            Culture: <li>{character.culture}</li>
+            Born: <li>{character.born}</li>
+            Died: <li>{((character.died === "") ? "STILL ALIVE" : character.died)}</li>
+            {/* <li>Aliases: {(character.aliases === []) ? "NO ALIASES AVAILABLE" : character.aliases.map((alias, index) => <p key={`${alias}-${index}`}>{alias}</p>)}</li>
+            <li>Books: {(character.books === []) ? "NO BOOKS AVAILABLE" : character.books.map((book, index) => <p key={`${book}-${index}`}>{book}</p>)}</li> */}
+          </ul>
+        </div>
       )
     }
     if (error) { return <div>{error}</div>; }
@@ -23,7 +28,11 @@ class CharacterInfo extends React.Component {
 
 
 //mapeie o estado global para a propriedade da sua aplicação
-const mapStateToProps = ({ reducer: { loading, character, error } }) => ({ loading, character, error });
+const mapStateToProps = state => ({
+  character: state.reducer.character, 
+  error: state.reducer.error,
+  loading: state.reducer.loading,
+})
 
 // conecte este componente ao redux aqui
 export default connect(mapStateToProps)(CharacterInfo);
