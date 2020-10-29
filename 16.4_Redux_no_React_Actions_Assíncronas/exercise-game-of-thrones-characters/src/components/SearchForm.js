@@ -27,14 +27,15 @@ submitName(e) {
   const { inputText } = this.state;
   //desestruture a ação do thunk como propriedade aqui
   const { thunkCharacter } = this.props;
+
   this.setState({
     inputText: '',
     characterSearched: inputText,
+  }, () => {
+    const { characterSearched } = this.state;
+    thunkCharacter(characterSearched);
   })
   // insira a action a ser despachada para o thunk
-  thunkCharacter(inputText)
-
-
 }
 
 // validate() {
@@ -68,10 +69,16 @@ render() {
 }
 };
 
+// mapeie os estados para props
+const mapStateToProps = state => ({
+  character: state.character, 
+  error: state.error,
+})
+
 // mapeie as ações despachadas como propriedade do componente
 const mapDispatchToProps = dispatch => ({
   thunkCharacter: (name) => dispatch(thunkCharacter(name))
 })
 
 // conecte as ações despachadas ao redux
-export default connect(null, mapDispatchToProps)(SearchForm);
+export default connect(mapStateToProps, mapDispatchToProps)(SearchForm);

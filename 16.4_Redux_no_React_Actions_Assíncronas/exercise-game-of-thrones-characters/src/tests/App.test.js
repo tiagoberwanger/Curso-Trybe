@@ -49,22 +49,22 @@ describe('testing GOT search', () => {
 describe('testing GOT results', () => {
   beforeEach(cleanup);
 
-  // test('testing API', async() => {
-  //   const { getByText, getByRole } = renderWithRedux(<App />);
-  //   const searchButton = getByRole('button', { name: 'Search!'})
-  //   fetchMock.getOnce('https://anapioficeandfire.com/api/characters?name=jon+snow', { 
-  //     body: { name: 'Jon Snow'}
-  //   })
-  //   fireEvent.click(searchButton)
-  //   await waitFor(() => expect(fetchMock.called()).toBeTruthy())
-  // });
-
-  test('test if click with empty input', async() => {
+  test('testing API', async() => {
     const { getByText, getByRole } = renderWithRedux(<App />);
     const searchButton = getByRole('button', { name: 'Search!'})
+    fetchMock.getOnce('https://anapioficeandfire.com/api/characters?name=jon+snow', { 
+      body: { name: 'Jon Snow'}
+    })
     fireEvent.click(searchButton)
-    await waitFor(() => expect(getByText('Preencha este campo.')).toBeInTheDocument())
+    await waitFor(() => expect(fetchMock.called()).toBeTruthy())
   });
+
+  // test('test if click with empty input', async() => {
+  //   const { getByText, getByRole } = renderWithRedux(<App />);
+  //   const searchButton = getByRole('button', { name: 'Search!'})
+  //   fireEvent.click(searchButton)
+  //   await waitFor(() => expect(getByText('Preencha este campo.')).toBeInTheDocument())
+  // });
 
   // test('test click after fill input with character name', async() => {
   //   const { getByText, getByRole, getByTestId } = renderWithRedux(<App />);

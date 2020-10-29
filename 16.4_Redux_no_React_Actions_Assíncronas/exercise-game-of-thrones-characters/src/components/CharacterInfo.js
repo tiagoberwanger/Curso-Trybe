@@ -5,6 +5,7 @@ class CharacterInfo extends React.Component {
   render() {
     //faça a desestruturação das props aqui
     const { loading, character, error } = this.props;
+
     if (!loading && character) {
       return (
         <div className="result">
@@ -14,15 +15,24 @@ class CharacterInfo extends React.Component {
             Culture: <li>{character.culture}</li>
             Born: <li>{character.born}</li>
             Died: <li>{((character.died === "") ? "STILL ALIVE" : character.died)}</li>
-            {/* <li>Aliases: {(character.aliases === []) ? "NO ALIASES AVAILABLE" : character.aliases.map((alias, index) => <p key={`${alias}-${index}`}>{alias}</p>)}</li>
-            <li>Books: {(character.books === []) ? "NO BOOKS AVAILABLE" : character.books.map((book, index) => <p key={`${book}-${index}`}>{book}</p>)}</li> */}
+            Aliases: <li>{character.aliases.map((alias, index) => <p key={`${alias}-${index}`}>{alias}</p>)}</li>
+            Books: <li>{character.books.map((book, index) => <p key={`${book}-${index}`}>{book}</p>)}</li>  
           </ul>
         </div>
       )
     }
-    if (error) { return <div>{error}</div>; }
-    if (loading) { return <div>Loading...</div>; }
-    return <div>Type a character name and click to search!</div>;
+    if (error) { 
+      return (
+        <div>{error}</div>
+      ) 
+    }
+    if (loading) { 
+      return (
+        <div>
+          Type a character name and click to search!
+        </div>
+      )
+    }
   }
 };
 
