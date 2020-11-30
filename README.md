@@ -36,7 +36,7 @@
 - [x] 5-6: *[Project - Art with Pixels](https://github.com/tiagoberwanger/Projeto-Pixels-Art)*
 - [x] 5-7: *[Project - Task List](https://github.com/tiagoberwanger/Projeto-To-Do-List)*
 
-## Front-end development :hourglass_flowing_sand:
+## Front-end development :white_check_mark:
 ##### Block 6: Introduction - Front-end
 - [x] 6-1: *Introduction - Front-end*
 - [x] 6-1: *HTML & CSS - Forms*
@@ -89,20 +89,20 @@
 - [x] 15-3: *[Project - React Tests](https://github.com/tiagoberwanger/Projeto-React-Tests)*
 ##### Block 16: React
 - [x] 16-1: *Introduction to Redux*
-- [ ] 16-2: *React with Redux - part 1*
-- [ ] 16-3: *React with Redux - Practice*
-- [ ] 16-4: *React with Redux - part 2*
-- [ ] 16-4: *Synchronous tests with React-Redux*
-- [ ] 16-6: *[Project - Table with data filters]*
+- [x] 16-2: *React with Redux - part 1*
+- [x] 16-3: *React with Redux - Practice*
+- [x] 16-4: *React with Redux - part 2*
+- [x] 16-4: *Synchronous tests with React-Redux*
+- [x] 16-6: *[Project - Table with data filters](https://github.com/tiagoberwanger/Projeto-Trybe-Wallet)*
 ##### Block 17: React
-- [ ] 17-1: *[Project - Trivia Game]*
+- [x] 17-1: *[Project - Trivia Game](https://github.com/tiagoberwanger/Projeto-Trivia-Game)*
 ##### Block 18: React & Redux
-- [ ] 18-1: *React Context API*
-- [ ] 18-2: *React Hooks - useState and useContext*
-- [ ] 18-3: *React Hooks - useEffect and custom Hooks*
-- [ ] 18-4: *[Project - Datatable StarWars with Context API and Hooks]*
+- [x] 18-1: *React Context API*
+- [x] 18-2: *React Hooks - useState and useContext*
+- [x] 18-3: *React Hooks - useEffect and custom Hooks*
+- [x] 18-4: *[Project - Datatable StarWars with Context API and Hooks](https://github.com/tiagoberwanger/Projeto-Datatable-StarWars)*
 ##### Block 19: Final Front-end Project
-- [ ] 19-1: *[Project - Recipe App]*
+- [x] 19-1: *[Project - Recipe App](https://github.com/tiagoberwanger/Projeto-Recipes-App)*
 
 ## Back-end development :hourglass_flowing_sand:
 ##### Block 20: Introduction - Relational Databases
