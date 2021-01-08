@@ -106,17 +106,17 @@
 
 ## Back-end development :hourglass_flowing_sand:
 ##### Block 20: Introduction - Relational Databases
-- [ ] 20-1: *Introduction - Back-end*
-- [ ] 20-1: *Introduction - Relational databases*
-- [ ] 20-1: *SQL database*
-- [ ] 20-2: *Finding data in a database*
-- [ ] 20-3: *Filtering data specifically*
-- [ ] 20-4: *Manipulating tables*
-- [ ] 20-5: *[Project - All For One]*
+- [x] 20-1: *Introduction - Back-end*
+- [x] 20-1: *Introduction - Relational databases*
+- [x] 20-1: *SQL database*
+- [x] 20-2: *Finding data in a database*
+- [x] 20-3: *Filtering data specifically*
+- [x] 20-4: *Manipulating tables*
+- [x] 20-5: *[Project - All For One]*
 ##### Block 21: Relational Databases
-- [ ] 21-1: *Most used functions in SQL*
-- [ ] 21-2: *Uncomplicating JOINs and UNIONs*
-- [ ] 21-3: *Stored Routines & Subqueries*
+- [x] 21-1: *Most used functions in SQL*
+- [x] 21-2: *Uncomplicating JOINs and UNIONs*
+- [x] 21-3: *Stored Routines & Subqueries*
 - [ ] 21-4: *[Project - Vocabulary Booster]*
 ##### Block 22: Relational Databases
 - [ ] 22-1: *Transforming ideas into a database model*
