@@ -112,31 +112,31 @@
 - [x] 20-2: *Finding data in a database*
 - [x] 20-3: *Filtering data specifically*
 - [x] 20-4: *Manipulating tables*
-- [x] 20-5: *[Project - All For One]*
+- [x] 20-5: *[Project - All For One](https://github.com/tiagoberwanger/Projeto-All-For-One)*
 ##### Block 21: Relational Databases
 - [x] 21-1: *Most used functions in SQL*
 - [x] 21-2: *Uncomplicating JOINs and UNIONs*
 - [x] 21-3: *Stored Routines & Subqueries*
-- [x] 21-4: *[Project - Vocabulary Booster]*
+- [x] 21-4: *[Project - Vocabulary Booster](https://github.com/tiagoberwanger/Projeto-Vocabulary-Booster)*
 ##### Block 22: Relational Databases
 - [x] 22-1: *Transforming ideas into a database model*
 - [x] 22-2: *Normalization, Normal Shapes and Dumps*
 - [x] 22-2: *Transforming ideas into a database model - Part 2*
-- [x] 22-3: *[Project - One For All]*
+- [x] 22-3: *[Project - One For All](https://github.com/tiagoberwanger/Projeto-One-For-All)*
 ##### Block 23: Introduction - NoSQL
 - [x] 23-1: *Introduction - NoSQL*
 - [x] 23-1: *MongoDB - Introduction*
 - [x] 23-3: *Filter Operators*
-- [x] 23-4: *[Project - Data Flights]*
+- [x] 23-4: *[Project - Data Flights](https://github.com/tiagoberwanger/Projeto-Data-Flights)*
 ##### Block 24: Updates
 - [x] 24-1: *Simple Updates*
 - [x] 24-2: *Complex Updates - Arrays - Part 1*
 - [x] 24-3: *Complex Updates - Arrays - Part 2*
-- [x] 24-4: *[Project - Commerce]*
+- [x] 24-4: *[Project - Commerce](https://github.com/tiagoberwanger/Projeto-Commerce)*
 ##### Block 25: Aggregation Framework
 - [x] 25-1: *Aggregation Framework - Part 1*
 - [x] 25-2: *Aggregation Framework - Part 2*
-- [x] 25-3: *[Project - Aggregations]*
+- [x] 25-3: *[Project - Aggregations](https://github.com/tiagoberwanger/Projeto-Aggregations)*
 ##### Block 26: Intro - NodeJS
 - [x] 26-1: *What It Is - NodeJS*
 - [x] 26-1: *NodeJS - Introduction*
