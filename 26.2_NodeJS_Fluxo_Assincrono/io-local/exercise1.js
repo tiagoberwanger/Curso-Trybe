@@ -1,6 +1,8 @@
+const chalk = require('chalk');
+
 function exercise1 (a, b, c) {
   return new Promise((resolve, reject) => {
-    if (a === isNaN || b === isNaN || c === isNaN) {
+    if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number') {
       return reject(new Error (('Digite apenas números!')))
     } 
     return resolve(a + b);
@@ -9,12 +11,12 @@ function exercise1 (a, b, c) {
       if (result*c < 50) {
         return Promise.reject(new Error (('Valor muito baixo!')))
       }
-      return console.log(result*c);
+      return console.log(chalk.green(result*c));
     })
-    .catch(error => console.error(error.message))
+    .catch(err => console.log(chalk.red(err)))
 }
 
-console.log(exercise1 (9, 1, 6));
+console.log(exercise1 (9, 1, 10));
 
 
 //GABARITO:

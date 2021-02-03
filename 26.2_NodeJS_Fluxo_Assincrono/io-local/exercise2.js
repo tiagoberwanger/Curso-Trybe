@@ -1,3 +1,5 @@
+const chalk = require('chalk');
+
 async function exercise2 (a, b, c) {
   if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number') {
     throw new Error ('Digite apenas números!')
@@ -9,9 +11,9 @@ async function exercise2 (a, b, c) {
 
 async function resultado() {
   try {
-    await console.log(exercise2(9, 6, 'x'));
+    await exercise2(9, 6, 29).then(result => console.log(chalk.green(result)));
   } catch (e) {
-    console.log(e);
+    console.log(chalk.red(e));
   }
 }
 

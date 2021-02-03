@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Tiago",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
