@@ -9,12 +9,12 @@ function exercise1 (a, b, c) {
       if (result*c < 50) {
         return Promise.reject(new Error (('Valor muito baixo!')))
       }
-      return result*c;
+      return console.log(result*c);
     })
     .catch(error => console.error(error.message))
 }
 
-exercise1 (9, 1, 6).then((result) => console.log(result));
+console.log(exercise1 (9, 1, 6));
 
 
 //GABARITO:
