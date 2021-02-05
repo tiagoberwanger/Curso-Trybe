@@ -15,4 +15,4 @@ app.get('/user/:name', (req, res) => {
   res.json({comments, user: name})
 });
   
-app.listen(3000);
+app.listen(3000, () => console.log('CARREGANDO'));
