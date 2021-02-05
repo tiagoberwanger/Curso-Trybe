@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      height: 100vh;
+      background: linear-gradient(45deg, whitesmoke, green)
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2 id="username"></h2>
+    <ul id="user"></ul>
+  </div>
+  <script>
+    async function getUser() {
+      const response = await fetch("http://localhost:3000/user/antonio");
+      const data = await response.json();
+      const divElement = document.getElementById("user")
+      const h1Element = document.getElementById('username')
+      h1Element.innerHTML = `Comentários de ${data.user}`
+      data.comments.map((comment) =>{
+      const listElement = document.createElement("li")
+      listElement.innerHTML = comment
+      divElement.appendChild(listElement)
+    })}
+    getUser();
+  </script>
+
+</body>
+</html>
