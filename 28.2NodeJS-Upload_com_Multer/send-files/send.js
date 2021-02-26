@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 // Criamos um stream de um arquivo
-const stream = fs.createReadStream('./chroma.jpg');
+const stream = fs.createReadStream('./meu-arquivo.txt');
 
 // Aqui, criamos um formulário com um campo chamado 'file' que carregará
 // o stream do nosso arquivo
@@ -15,8 +15,7 @@ form.append('file', stream);
 // 'Content-Type' chamando o método `getHeaders`
 const formHeaders = form.getHeaders();
 
-axios
-  .post('http://localhost:3000/files/upload', form, {
+axios.post('http://localhost:3000/files/upload', form, {
     headers: {
       ...formHeaders,
     },
@@ -26,4 +25,4 @@ axios
   })
   .catch((error) => {
     console.error(error)
-  });
+});
