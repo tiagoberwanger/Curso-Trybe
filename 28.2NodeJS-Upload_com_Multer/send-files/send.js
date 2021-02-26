@@ -8,14 +8,13 @@ const stream = fs.createReadStream('./meu-arquivo.txt');
 // Aqui, criamos um formulário com um campo chamado 'file' que carregará
 // o stream do nosso arquivo
 const form = new FormData();
-form.append('file', stream);
+form.append('arquivo', stream);
 
 // Esse arquivo não será enviado no body da requisição como de costume.
 // Em ambientes NodeJS, é preciso setar o valor de boundary no header
 // 'Content-Type' chamando o método `getHeaders`
 const formHeaders = form.getHeaders();
-
-axios.post('http://localhost:3000/files/upload', form, {
+axios.post('http://localhost:3000/upload', form, {
     headers: {
       ...formHeaders,
     },
