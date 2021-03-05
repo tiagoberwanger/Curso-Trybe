@@ -138,31 +138,29 @@
 - [x] 25-2: *Aggregation Framework - Part 2*
 - [x] 25-3: *[Project - Aggregations](https://github.com/tiagoberwanger/Projeto-Aggregations)*
 ##### Block 26: Intro - NodeJS
-- [x] 26-1: *What It Is - NodeJS*
+- [x] 26-1: *Intro - NodeJS*
 - [x] 26-1: *NodeJS - Introduction*
-- [ ] 26-2: *NodeJS - Asynchronous Flow*
-- [ ] 26-3: *NodeJS - Architecture*
-- [ ] 26-4: *[Project - A CLI of Ice and Fire]*
-##### Block 27: NodeJS
-- [ ] 27-1: *Express: HTTP with Node.js*
-- [ ] 27-2: *Software Architecture - Introduction to MVC*
-- [ ] 27-3: *[Project - Cookmaster]*
-##### Block 28: Software Architecture
-- [ ] 28-1: *Software Architecture - Service Layer*
-- [ ] 28-2: *Web Architecture - Rest & Restful*
-- [ ] 28-3: *[Project - Online Store Manager]*
-##### Block 29: Node - JSON Web Token
-- [ ] 29-1: *NodeJS - JWT - (JSON Web Token)*
-- [ ] 29-2: *NodeJS - Upload files with Multer*
-- [ ] 29-3: *[Project - Cookmaster version 2]*
+- [x] 26-2: *NodeJS - Asynchronous Flow*
+- [x] 26-3: *NodeJS - Architecture*
+- [x] 26-3: *Express - HTTP with NodeJS*
+- [x] 26-3: *Express - Practicing*
+- [x] 26-4: *[Project - Crush Manager](https://github.com/tiagoberwanger/Projeto-Crush-Manager)*
+##### Block 27: Software Architecture
+- [x] 27-1: *Intro - Software Architecture*
+- [x] 27-1: *Software Architecture - Service Layer*
+- [x] 27-2: *Software Architecture - Controller and Service*
+- [x] 27-3: *Web Architecture - Rest & Restful*
+- [x] 27-4: *[Project - Store Manager](https://github.com/tiagoberwanger/Projeto-Store-Manager)*
+##### Block 28: Node - JSON Web Token
+- [x] 28-1: *NodeJS - JWT - (JSON Web Token)*
+- [x] 28-2: *NodeJS - Upload files with Multer*
+- [x] 28-3: *[Project - Cookmaster](https://github.com/tiagoberwanger/Projeto-Cookmaster)*
 
-## Infrastructures :hourglass_flowing_sand:
-##### Block 30: Introduction - Deploy
-- [ ] 30-1: *Introduction - Deploy*
-- [ ] 30-1: *Infrastructure - Deploy with Heroku*
-- [ ] 30-2: *Deploy - Process Managers*
-- [ ] 30-3: *[Project - Stranger Things]*
-#### Block 31: Using all knowledge so far
-- [ ] 31-1: *[Project - Trybeer]*
+##### Block 29: Deployment
+- [x] 29-1: *Intro - Deployment*
+- [x] 29-1: *Infrastructure - Deploy with Heroku*
+- [x] 29-2: *Deploy - Process Manager*
+- [ ] 29-3: *[Project - Stranger Things]*
 
-# [...]
+##### Block 30: Project Frontend and Backend
+- [ ] 30-1: *Trybeer Project*
