@@ -1,16 +1,72 @@
-const express = require('express')
-const app = express()
-const port = 3000
+let defaultPlants = require('./plants.json')
 
-const {getPlants} = require('./index')
+let createdPlants = 0;
 
-app.get('/', (_req, res) => {
-  res.send('Hello World!')
-})
+const calculateWaterFrequency = (needsSun, size, origin) => {
+  return needsSun
+    ? size * 0.77 + (origin === "Brazil" ? 8 : 7)
+    : (size / 2) * 1.33 + (origin === "Brazil" ? 8 : 7);
+};
 
-app.get('/plants', async (_req, res) => {
-  const allPlants = await getPlants();
-  res.send(allPlants)
-})
+const initPlant = (id, breed, needsSun, origin, specialCare, size) => {
+  const waterFrequency = calculateWaterFrequency(needsSun, size, origin);
+  const newPlant = {
+    id,
+    breed,
+    needsSun,
+    origin,
+    specialCare: {
+      waterFrequency,
+      ...specialCare,
+    },
+    size,
+  };
+  return newPlant;
+};
 
-app.listen(port, () => console.log(`Running at ${port}!`))
+const getPlants = () => {
+  return defaultPlants;
+};
+
+const needsSun = (plant) => {
+  return !!plant.needsSun;
+};
+
+const getPlantById = (id) => {
+  return defaultPlants.filter((plant) => plant.id === id);
+};
+
+const removePlantById = (id) => {
+  defaultPlants = defaultPlants.filter((plant) => plant.id !== id);
+};
+
+const getPlantsThatNeedsSunWithId = (id) => {
+  return defaultPlants.filter((plant) => {
+    return needsSun(plant) && plant.id === id;
+  });
+};
+
+const editPlant = (plantId, newPlant) => {
+  return defaultPlants.map((plant) => {
+    if (plant.id === plantId) {
+      return newPlant;
+    }
+    return plant;
+  });
+};
+
+const createNewPlant = (plant) => {
+  const mappedPlant = initPlant({ ...plant });
+  defaultPlants.push(mappedPlant);
+  createdPlants++;
+  return mappedPlant;
+};
+
+module.exports = {
+  createNewPlant,
+  editPlant,
+  getPlantsThatNeedsSunWithId,
+  removePlantById,
+  getPlantById,
+  getPlants,
+};
