@@ -6,40 +6,40 @@ app.use(express.json());
 
 const { Book } = require('./models')
 
-app.get('/books', (_req, res) => {
-  Book.findAll()
-    .then(books => {
-      res.status(200).json(books);
-  })
-  .catch(err => {
-    console.log(err);
-    res.status(500).send({ message: 'Algo deu errado' });
-  })
-})
+// app.get('/books', (_req, res) => {
+//   Book.findAll()
+//     .then(books => {
+//       res.status(200).json(books);
+//   })
+//   .catch(err => {
+//     console.log(err);
+//     res.status(500).send({ message: 'Algo deu errado' });
+//   })
+// })
 
-app.get('/book/:id', (req, res) => {
-  const { id } = req.params;
-  Book.findByPk(id)
-    .then((book) => {
-      res.status(200).json(book);
-    })
-    .catch((error) => {
-      console.log(error.message)
-      res.status(500).send({ message: 'Algo deu errado' });
-    })
-})
+// app.get('/book/:id', (req, res) => {
+//   const { id } = req.params;
+//   Book.findByPk(id)
+//     .then((book) => {
+//       res.status(200).json(book);
+//     })
+//     .catch((error) => {
+//       console.log(error.message)
+//       res.status(500).send({ message: 'Algo deu errado' });
+//     })
+// })
 
-app.post('/book', (req, res) => {
-  const { title, author, pageQuantity } = req.body;
-  Book.create({title, author, pageQuantity})
-    .then((book) => {
-      res.status(201).json(book);
-    })
-    .catch((error) => {
-      console.log(error.message)
-      res.status(500).send({ message: 'Algo deu errado' });
-    })
-})
+// app.post('/book', (req, res) => {
+//   const { title, author, pageQuantity } = req.body;
+//   Book.create({title, author, pageQuantity})
+//     .then((book) => {
+//       res.status(201).json(book);
+//     })
+//     .catch((error) => {
+//       console.log(error.message)
+//       res.status(500).send({ message: 'Algo deu errado' });
+//     })
+// })
 
 app.put('/book/:id ', async (req, res) => {
   const { title, author, pageQuantity } = req.body;
@@ -48,7 +48,7 @@ app.put('/book/:id ', async (req, res) => {
   await Book.update(
     { title, author, pageQuantity },
     {
-      where: { id: id },
+      where: { id },
     }
   ) .then((book) => {
       res.status(200).json({ message: `${book} atualizado com sucesso!` });
