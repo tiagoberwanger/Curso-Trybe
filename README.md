@@ -160,8 +160,8 @@
 - [x] 29-1: *Intro - Deployment*
 - [x] 29-1: *Infrastructure - Deploy with Heroku*
 - [x] 29-2: *Deploy - Process Manager*
-- [x] 29-3: *[Project - Stranger Things - Frontend](https://github.com/tiagoberwanger/Project-Stranger-Things-Frontend)
-- [x] 29-3: *[Project - Stranger Things - Backend](https://github.com/tiagoberwanger/Project-Stranger-Things-Backend)
+- [x] 29-3: *[Project - Stranger Things - Frontend](https://github.com/tiagoberwanger/Project-Stranger-Things-Frontend)*
+- [x] 29-3: *[Project - Stranger Things - Backend](https://github.com/tiagoberwanger/Project-Stranger-Things-Backend)*
 
 ##### Block 30: Project Frontend and Backend
 - [x] 30-1: *[Trybeer Project](https://github.com/tiagoberwanger/Projeto-Trybeer)*
