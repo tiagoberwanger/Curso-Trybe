@@ -104,7 +104,7 @@
 ##### Block 19: Final Front-end Project
 - [x] 19-1: *[Project - Recipe App](https://github.com/tiagoberwanger/Projeto-Recipes-App)*
 
-## Back-end development :hourglass_flowing_sand:
+## Back-end development :white_check_mark:
 ##### Block 20: Introduction - Relational Databases
 - [x] 20-1: *Introduction - Back-end*
 - [x] 20-1: *Introduction - Relational databases*
@@ -160,8 +160,8 @@
 - [x] 29-1: *Intro - Deployment*
 - [x] 29-1: *Infrastructure - Deploy with Heroku*
 - [x] 29-2: *Deploy - Process Manager*
-- [ ] 29-3: *[Project - Stranger Things - Frontend](https://github.com/tiagoberwanger/Project-Stranger-Things-Frontend)
-- [ ] 29-3: *[Project - Stranger Things - Backend](https://github.com/tiagoberwanger/Project-Stranger-Things-Backend)
+- [x] 29-3: *[Project - Stranger Things - Frontend](https://github.com/tiagoberwanger/Project-Stranger-Things-Frontend)
+- [x] 29-3: *[Project - Stranger Things - Backend](https://github.com/tiagoberwanger/Project-Stranger-Things-Backend)
 
 ##### Block 30: Project Frontend and Backend
-- [ ] 30-1: *[Trybeer Project](https://github.com/tiagoberwanger/Projeto-Trybeer)*
+- [x] 30-1: *[Trybeer Project](https://github.com/tiagoberwanger/Projeto-Trybeer)*
