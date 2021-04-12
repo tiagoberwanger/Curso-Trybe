@@ -1,10 +1,11 @@
 const express = require('express');
+const bodyParser = require('body-parser')
 
 const authorController = require('./controllers/authorController');
 
 const app = express();
 
-app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }))
 
 app.set('view engine', 'ejs');
 
