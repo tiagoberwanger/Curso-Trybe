@@ -3,7 +3,9 @@ const net = require('net');
 const client = net.connect({ port: 8080 }, () => {
   console.log('Cliente conectado ao servidor!');
 });
-client.write('sup duuuuude')
+
+client.write('message')
+
 /* Assim como no servidor, também temos eventos do lado do cliente, onde o evento 'data' é ativado quando o servidor envia uma mensagem para o cliente. */
 client.on('data', (data) => {
   console.log(data.toString());
