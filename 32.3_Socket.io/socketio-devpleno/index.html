@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socket.io</title>
+</head>
+<body>
+  <h1>Socket.io</h1>
+  <script src="/socket.io/socket.io.js"></script>
+  <div id='users'></div>
+  <script>
+    const socket = io()
+
+    socket.on('connect', () => {
+      console.log(socket.id)
+
+      const userObj = {
+        id: socket.id,
+        user: `user_${socket.id}`
+      }
+      socket.emit('user', userObj)
+    })
+    
+    socket.on('users', (users) => {
+      const usersDiv = document.querySelector('#users')
+      usersDiv.innerHTML = '';
+      const firstUser = users.filter((user) => user.id === socket.id)
+      const li = document.createElement('li');
+      li.innerHTML = firstUser[0].user
+      usersDiv.append(li)
+
+      const otherUsers = users.filter((user) => user.id !== socket.id)
+      otherUsers.forEach((el) => {
+        const li = document.createElement('li');
+        li.innerHTML = el.user
+        usersDiv.append(li)
+      })
+    })
+
+  </script>
+</body>
+</html>
