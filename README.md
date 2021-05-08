@@ -178,16 +178,16 @@
 - [ ] In and Out Data
 - [ ] Data Scraping
 - [ ] Tests
-- [ ] *[Project - Tech News](https://github.com/tryber/sd-05-tech-news/pull/10)*
+- [ ] *[Project - Tech News]*
 
 ##### Block 36: Object Oriented Programming and Design Patterns
-- [ ] *[Project - Inventory Reports](https://github.com/tryber/sd-05-inventory-report/pull/6)*
+- [ ] *[Project - Inventory Reports]*
 
 ##### Block 37: Algorithms and Data Structure
-- [ ] *[Project - Algorithms](https://github.com/tryber/sd-05-project-algorithms/pull/6)*
+- [ ] *[Project - Algorithms]*
 
 ##### Block 38: Data Structure: Hash and Set
-- [ ] *[Project - Restaurant Orders](https://github.com/tryber/sd-05-restaurant-orders/pull/10)*
+- [ ] *[Project - Restaurant Orders])*
 
 ##### Block 39: Data Structure: Stacks, Queues and Lists
-- [ ] *[Project - Trybe Is Not Google](https://github.com/tryber/sd-05-project-ting/pull/2)*
+- [ ] *[Project - Trybe Is Not Google]*
