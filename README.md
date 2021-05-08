@@ -166,8 +166,8 @@
 ##### Block 30: Project Frontend and Backend
 - [x] 30-1: *[Trybeer Project](https://github.com/tiagoberwanger/Projeto-Trybeer)*
 
+## Computer Science
 ##### Block 34: Computer Architecture and Network
-
 - [x] Introduction to Science Computing
 - [x] Computer Architecture
 - [x] Network Architecture
