@@ -165,3 +165,29 @@
 
 ##### Block 30: Project Frontend and Backend
 - [x] 30-1: *[Trybeer Project](https://github.com/tiagoberwanger/Projeto-Trybeer)*
+
+## Computer Science
+##### Block 34: Computer Architecture and Network
+- [x] Introduction to Science Computing
+- [x] Computer Architecture
+- [x] Network Architecture
+- [x] Computer network, tools and security
+
+##### Block 35: Python and Web Data Scraping
+- [x] Introduction to Python
+- [ ] In and Out Data
+- [ ] Data Scraping
+- [ ] Tests
+- [ ] *[Project - Tech News]*
+
+##### Block 36: Object Oriented Programming and Design Patterns
+- [ ] *[Project - Inventory Reports]*
+
+##### Block 37: Algorithms and Data Structure
+- [ ] *[Project - Algorithms]*
+
+##### Block 38: Data Structure: Hash and Set
+- [ ] *[Project - Restaurant Orders])*
+
+##### Block 39: Data Structure: Stacks, Queues and Lists
+- [ ] *[Project - Trybe Is Not Google]*
