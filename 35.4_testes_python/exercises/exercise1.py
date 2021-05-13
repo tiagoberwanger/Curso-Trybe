@@ -1,16 +1,16 @@
 def FizzBuzz(n):
     array = []
-    for i in range(n):
+    # range de 1, n
+    for i in range(1, n+1):
         if (i % 3 == 0 and i % 5 == 0):
-            array.append("fizzbuzz")
+            array.append("FizzBuzz")
         elif (i % 3 == 0):
-            array.append("fizz")
+            array.append("Fizz")
         elif (i % 5 == 0):
-            array.append("buzz")
+            array.append("Buzz")
         else:
             array.append(i)
     return array
 
 
 print(FizzBuzz(15))
-# porque o fizzbuzz tá aparecendo no inicio???
