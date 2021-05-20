@@ -1,11 +1,11 @@
 # Que tal agora então modelarmos uma televisão
 
 class Televisao:
-    def __init__(self, polegadas, smart, valor):
+    def __init__(self, polegadas=0, smart=False, valor=0):
         # porque as variáveis não estão inicializadas?
-        self.polegadas = 0
-        self.smart = False
-        self.valor = 0
+        self.polegadas = polegadas
+        self.smart = smart
+        self.valor = valor
 
     def get_polegadas(self):
         return self.polegadas
@@ -14,14 +14,10 @@ class Televisao:
         self.polegadas = polegadas
 
     def get_smart(self):
-        return self.smart
+        return "Sim!" if self.smart else "Não!"
 
     def set_smart(self, smart):
-        if smart is True:
-            self.smart = smart
-            return "Sim!"
-        else:
-            return "Não!"
+        self.smart = smart
 
     def get_valor(self):
         return self.valor

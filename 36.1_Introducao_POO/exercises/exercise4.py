@@ -4,11 +4,11 @@
 
 
 class Cafeteria:
-    def __init__(self, tamanho, tipo, valor):
+    def __init__(self, polegadas="", smart="", valor=0):
         # porque as variáveis não estão inicializadas?
-        self.tamanho = ""
-        self.tipo = ""
-        self.valor = 0
+        self.tamanho = polegadas
+        self.tipo = smart
+        self.valor = valor
 
     def get_tamanho(self):
         return self.tamanho
