@@ -14,7 +14,7 @@ def click_automatization(url, xpath, times):
         driver = webdriver.Firefox(
             executable_path=GeckoDriverManager().install()
         )
-        driver.implicitly_wait(3)
+        driver.implicitly_wait(5)
         driver.get(url)
         element = driver.find_element_by_xpath(xpath)
         element.click()
@@ -23,9 +23,9 @@ def click_automatization(url, xpath, times):
 
 click_automatization(
     # webpage
-    'https://cpstest.org/',
+    'https://app.sli.do/event/5ullofnu/live/questions',
     # xpath from element
-    '//*[@id="start"]',
+    '//*[@id="live-tabpanel-questions"]/div[4]/div[6]/div/div/div[1]/div[3]/div[2]/button',
     # how many times will click
-    3
+    1
 )
