@@ -175,19 +175,32 @@
 
 ##### Block 35: Python and Web Data Scraping
 - [x] Introduction to Python
-- [ ] In and Out Data
-- [ ] Data Scraping
-- [ ] Tests
-- [ ] *[Project - Tech News]*
+- [x] In and Out Data
+- [x] Data Scraping
+- [x] Tests
+- [x] *[Project - Tech News]*
 
 ##### Block 36: Object Oriented Programming and Design Patterns
-- [ ] *[Project - Inventory Reports]*
+- [x] Introduction to POO
+- [x] Heritage, composition and interfaces
+- [x] Project patterns
+- [x] *[Project - Inventory Reports]*
 
 ##### Block 37: Algorithms and Data Structure
-- [ ] *[Project - Algorithms]*
+- [x] Algorithms complexity
+- [x] Recursivity and problems solution
+- [x] Search order
+- [x] *[Project - Algorithms]*
 
 ##### Block 38: Data Structure: Hash and Set
+- [x] Arrays
+- [x] Hashmap and Dict
+- [x] Set
 - [ ] *[Project - Restaurant Orders])*
 
 ##### Block 39: Data Structure: Stacks, Queues and Lists
+- [ ] Stack (abstract data type)
+- [ ] Double-ended queue
+- [ ] Node and linked lists
+- [ ] Connected lists
 - [ ] *[Project - Trybe Is Not Google]*
