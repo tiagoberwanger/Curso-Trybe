@@ -166,7 +166,7 @@
 ##### Block 30: Project Frontend and Backend
 - [x] 30-1: *[Trybeer Project](https://github.com/tiagoberwanger/Projeto-Trybeer)*
 
-## Computer Science
+## Computer Science :white_check_mark:
 ##### Block 34: Computer Architecture and Network
 - [x] Introduction to Science Computing
 - [x] Computer Architecture
@@ -196,11 +196,10 @@
 - [x] Arrays
 - [x] Hashmap and Dict
 - [x] Set
-- [ ] *[Project - Restaurant Orders])*
+- [x] *[Project - Restaurant Orders])*
 
 ##### Block 39: Data Structure: Stacks, Queues and Lists
-- [ ] Stack (abstract data type)
-- [ ] Double-ended queue
-- [ ] Node and linked lists
-- [ ] Connected lists
-- [ ] *[Project - Trybe Is Not Google]*
+- [x] Node and linked lists
+- [x] Double-ended queue
+- [x] Stacks
+- [x] *[Project - Trybe Is Not Google]*
