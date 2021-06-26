@@ -178,28 +178,28 @@
 - [x] In and Out Data
 - [x] Data Scraping
 - [x] Tests
-- [x] *[Project - Tech News]*
+- [x] *[Project - Tech News](https://github.com/tiagoberwanger/Projecto-Tech-News)*
 
 ##### Block 36: Object Oriented Programming and Design Patterns
 - [x] Introduction to POO
 - [x] Heritage, composition and interfaces
 - [x] Project patterns
-- [x] *[Project - Inventory Reports]*
+- [x] *[Project - Inventory Reports](https://github.com/tiagoberwanger/Projeto-Inventory-Reports)*
 
 ##### Block 37: Algorithms and Data Structure
 - [x] Algorithms complexity
 - [x] Recursivity and problems solution
 - [x] Search order
-- [x] *[Project - Algorithms]*
+- [x] *[Project - Algorithms](https://github.com/tiagoberwanger/Projeto-Algorithms)*
 
 ##### Block 38: Data Structure: Hash and Set
 - [x] Arrays
 - [x] Hashmap and Dict
 - [x] Set
-- [x] *[Project - Restaurant Orders])*
+- [x] *[Project - Restaurant Orders](https://github.com/tiagoberwanger/Projeto-Restaurant-Orders)*
 
 ##### Block 39: Data Structure: Stacks, Queues and Lists
 - [x] Node and linked lists
 - [x] Double-ended queue
 - [x] Stacks
-- [x] *[Project - Trybe Is Not Google]*
+- [x] *[Project - Trybe Is Not Google](https://github.com/tiagoberwanger/Projeto-Trybe-Is-Not-Google)*
